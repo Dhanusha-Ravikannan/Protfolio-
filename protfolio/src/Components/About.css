@@ -1,0 +1,55 @@
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.about-img img{
+    margin-top: 3rem;
+    padding-bottom: 35%;
+    border-radius: 8px;
+}
+
+
+.about-text h2{
+    font-size: 60px;
+    color: aqua;
+}
+
+.about-text h2 span{
+    color: rgb(84, 19, 146);
+    color: rgb(198, 81, 100);
+}
+
+.about-text h4{
+    font-size: 29px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+
+}
+
+.about-text p{
+    
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom:4rem ;
+    color: white;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
+
+}
+
+.homee{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #111;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 10% 0;
+}
+

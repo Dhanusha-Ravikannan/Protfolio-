@@ -1,42 +1,65 @@
-import React from 'react';
-import './Navbar.css';
-import 'animate.css';
-import 'boxicons/css/boxicons.min.css';
+import React from "react";
+import "./Navbar.css";
+import "animate.css";
+import "boxicons/css/boxicons.min.css";
 
 const Navbar = () => {
   return (
-    <> 
-    <header className='header'> 
+    <>
+      <header className="header">
+        <a href="#" className="logo">
+          {" "}
+          Protfolio{" "}
+        </a>
+        <nav className="navbar">
+          <a href="#home"> Home</a>
+          <a href="#about"> About</a>
+          <a href="#skills"> Skills</a>
+          <a href="#projects"> Projects</a>
+          <a href="#contact"> Contact</a>
+        </nav>
+      </header>
 
-   <a href='#' className='logo'> Protfolio </a>
-    <nav className='navbar'>       
-        <a href='#'> Home</a>
-        <a href='#'> About</a>
-        <a href='#'> Skills</a>
-        <a href='#'> Project</a>
-        <a href='#'> Contact</a>
-    </nav> 
-    </header>   
+      <section id="home" className="home">
+        <div className="home-content">
+          <h3 
+          className="animate__animated animate__bounceInDown"
+          >
+            {" "}
+            Hello, It's me{" "}
+          </h3>
+          <h1 
+          className="animate__animated animate__bounceInDown"
+          >
+            {" "}
+            Dhanusha Ravikannan{" "}
+          </h1>
+          <h3 className='animate__animated animate__bounceInDown'> And I'm a Front-End Developer</h3>
+          <p> A passionate and skilled Frontend Developer, Equipped with strong problem-solving 
+             abilities and a fast learner mindset, I thrive in collaborative team environments 
+             while continuously enhancing my technical expertise. Curious by nature, I am eager 
+             to bring creative solutions and fresh perspectives to challenging projects, contributing 
+             to innovative and impactful web development.</p>
+         
+          <div className="home-scl">
+            <a href="#">
+              <i className="bx bxl-linkedin-square"></i>
+            </a>
+            <a href="#">
+              <i className="bx bxl-gmail"></i>
+            </a>
+          </div>
+          <div>
+            <a href="#" className="btn-box animate__animated animate__flash">
+              {" "}
+              More About me{" "}
+            </a>
+          </div>
+        </div>
+      </section>     
 
-    <section className='home'> 
-    <div className='home-content'> 
-    <h3 className='animate__animated animate__bounceInDown'> Hello, It's me </h3>
-    <h1 className='animate__animated animate__bounceInDown'> Dhanusha Ravikannan </h1>
-    {/* <h3 className='animate__animated animate__bounceInDown'> And I'm a Front-End Developer</h3> */}
-    <p> I'm a Passionate Front-End Developer with extensive experience</p>
-    <br/>in creatig website design, Frontend design 
-    <div className='home-scl'> 
-            <a href='#'><i className='bx bxl-linkedin-square'></i></a>
-            <a href='#'><i className='bx bxl-gmail'></i></a>
-    </div>
-    <div> 
-      <a href='#' className='btn-box animate__animated animate__flash'> More About me </a>
-    </div>
-
-    </div>     
-    </section>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
