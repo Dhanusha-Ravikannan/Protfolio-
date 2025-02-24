@@ -80,6 +80,7 @@
     height: 100vh;
     background-color:rgb(182, 169, 169) ;
     background-color: #111;
+    background-color: rgb(63, 10, 54);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -134,10 +135,10 @@
 }
 
 .home-scl a:hover{
-    background-color: rgb(64, 124, 147);
     background-color:  aqua;;
-    box-shadow: 0 0 20px rgb(64, 124, 147);
-    color: aliceblue;
+    box-shadow: 0 0 20px rgb(22, 229, 240);
+    color: black;
+
     
 }
 
@@ -158,10 +159,7 @@
     animation: slideRight 1s ease forwards;
     animation-delay: 1s;
 }
-/* .frontend{
-    font-size: 2rem;
-    color: aqua;
-} */
+
 
 
 @keyframes slideRight{

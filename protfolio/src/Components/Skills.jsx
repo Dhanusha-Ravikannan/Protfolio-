@@ -12,7 +12,10 @@ const Skills = () => {
   return (
     <> 
     <div id="skills" className="skills-container">
-      <h2> MY SKILLS</h2>
+      {/* <h2> MY  SKILLS</h2> */}
+      <h2>
+  <span style={{ color: "rgb(198, 81, 100)" }}>My</span> <span style={{ color: "aqua" }}>Skills</span>
+</h2>
     
       <h3>Technical Skills</h3>
       <div className="skills-grid">

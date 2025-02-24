@@ -3,22 +3,41 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 1.5rem;
+   
+  
 }
 
 .about-img img{
     margin-top: 3rem;
     padding-bottom: 35%;
     border-radius: 8px;
+  
+}
+
+/* .about-img img {
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-top: 3rem;
+    padding-bottom: 0;
+   
+} */
+
+.about-img {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
 }
 
 
 .about-text h2{
     font-size: 60px;
     color: aqua;
+   
 }
 
 .about-text h2 span{
-    color: rgb(84, 19, 146);
     color: rgb(198, 81, 100);
 }
 
@@ -48,8 +67,23 @@
     justify-content: space-between;
     height: 100vh;
     background-color: #111;
+    background-color: rgb(63, 10, 54);
     background-size: cover;
     background-position: center;
-    padding: 100px 10% 0;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
 }
 
+
+
+.btn-boxx{
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: rgb(198, 81, 100);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    
+}

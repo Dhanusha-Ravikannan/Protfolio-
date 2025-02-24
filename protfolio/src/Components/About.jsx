@@ -15,6 +15,7 @@ const About = () => {
           <h2>
             About <span> Me</span>
           </h2>
+         
           <h4> Front End Developer</h4>
           <p>
             Motivated Frontend Developer with a strong foundation in HTML, CSS,
@@ -25,7 +26,8 @@ const About = () => {
             excellent communication and problem-solving skills, combined with a
             strong work ethic, make me a valuable asset to any organization.
 
-            {/* A passionate and skilled Frontend Developer, specialized in HTML, CSS,
+            {/* A passionate and skilled Frontend Developer, 
+            Motivated Frontend Developer specialized in HTML, CSS,
              JavaScript, Node.js, and React.js. With hands-on experience in building 
              responsive and dynamic web applications using React.js, I am proficient 
              in version control using Git and GitHub, and deploying applications with Render. 
@@ -36,13 +38,12 @@ const About = () => {
              to bring creative solutions and fresh perspectives to challenging projects, contributing 
              to innovative and impactful web development. */}
           </p>
-          <a href="#" className="btn-box">
-            
+          <div  className="btn-boxx">            
             More About me
-          </a>
+          </div>
+         
         </div>
       </section>
-      
       </div>
 
     </>
