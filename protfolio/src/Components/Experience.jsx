@@ -5,9 +5,9 @@ const Experience = () => {
   return (
     <div className='exp-back'>
       <section id="experience">
-        <div className='exp-head'>
-          <span style={{ color: "rgb(198, 81, 100)" }}>My</span> Experience
-        </div>
+        <h2 className='exp-head' style={{color: " rgb(63, 10, 54)"}}>
+          <span style={{ color: "crimson" }}>My</span> Experience
+        </h2>
         <div className='experience-content'>
           <div className='experience-card'>
             <h3>I-BACUS Tech, Coimbatore</h3>

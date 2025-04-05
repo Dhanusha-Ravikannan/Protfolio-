@@ -8,7 +8,7 @@ const About = () => {
       <div className='about-back' id="about">
 
         <div className='about-title' >
-          <span style={{ color: "aqua" }}>About</span> Me
+          <span style={{ color: " rgb(63, 10, 54)" }}>About</span> Me
         </div>
 
         <section className="about" >

@@ -1,16 +1,18 @@
 .projects-container {
   padding: 40px;
   background-color: rgb(63, 10, 54);
+  background-color: rgb(147, 129, 150);
   color: white;
   min-height: 100vh;
   text-align: center;
 }
 
-h2 {
-  font-size: 60px;
-  color: aqua;
+.projects-container h2 {
+  font-size: 3rem;
+  color: rgb(49, 106, 106);
   font-weight: bold;
   margin-bottom: 20px;
+  color: " rgb(63, 10, 54)"
 }
 
 .projects-grid {

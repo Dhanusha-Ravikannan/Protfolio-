@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     background-color: rgb(63, 10, 54);
+    background-color: rgb(147, 129, 150);
     width: 100%;
     padding: 50px 0;
 }
@@ -17,6 +18,7 @@
     text-align: center;
     margin-bottom: 2rem;  /* Reduced from 8rem to 2rem */
     color: rgb(198, 81, 100);
+    color: crimson;
 }
 
 .about {
@@ -34,18 +36,20 @@ h4 {
     font-size: 26px;
     color: rgb(198, 81, 100);
     color:rgb(240, 100, 123) ;
-    margin-bottom: 15px;
-    /* color: aqua; */
+    /* color: crimson; */
+  
 }
 
 .about-list {
     text-align: left;
     padding-left: 20px;
+    margin-top: 2rem;
 }
 
 .about-list ol {
     list-style: decimal;
     margin-left: 20px;
+    
     
 }
 
@@ -53,6 +57,7 @@ h4 {
     list-style: disc;
     margin-left: 70px;
     margin-top: 1rem;
+    
 }
 
 .btn-boxx {
@@ -69,6 +74,8 @@ h4 {
 .about-list strong{
     font-size: 1.5rem;
     color: aqua;
+    color: rgb(203, 74, 128);
+    color: rgb(207, 57, 87);
 } 
 
 
@@ -77,71 +84,10 @@ h4 {
     padding-left: 20px;
     font-size: 1.3rem;
     width: 97%;
+   
 }
 
 
 
 
 
-/* 
-
-@media screen and (max-width: 768px) {
-    .about {
-        width: 95%;
-        padding: 25px;
-    }
-
-    .about-title {
-        font-size: 32px;
-    }
-
-    h4 {
-        font-size: 22px;
-    }
-
-    .about-list strong {
-        font-size: 1.3rem;
-    }
-
-    .about-list ul {
-        margin-left: 40px;
-    }
-
-    .about-list li {
-        font-size: 1rem;
-        padding-left: 10px;
-        width: 100%;
-    }
-}
-
-
-@media screen and (max-width: 480px) {
-    .about-title {
-        font-size: 28px;
-        margin-bottom: 1.5rem;
-    }
-
-    h4 {
-        font-size: 20px;
-    }
-
-    .about {
-        width: 98%;
-      
-    }
-
-    .about-list strong {
-        font-size: 1.2rem;
-    }
-
-    .about-list ul {
-        margin-left: 0px;
-    }
-
-    .about-list li {
-        font-size: 0.95rem;
-        padding-left: 0px;
-        width: 100%;
-    }
-
-} */
