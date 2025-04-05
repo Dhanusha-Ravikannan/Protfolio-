@@ -1,54 +1,60 @@
-import React from 'react'
-import './About.css'
-import background from "../Assets/purple.avif";
+
+import React from 'react';
+import './About.css';
 
 const About = () => {
   return (
-    <> 
+    <>
+      <div className='about-back' id="about">
 
-<div className="homee"> 
-      <section className="about" id="about">
-        <div className="about-img">
-          <img src={background} alt="purple colour" />
+        <div className='about-title' >
+          <span style={{ color: "aqua" }}>About</span> Me
         </div>
-        <div className="about-text">
-          <h2>
-            About <span> Me</span>
-          </h2>
-         
-          <h4> Front End Developer</h4>
-          <p>
-            Motivated Frontend Developer with a strong foundation in HTML, CSS,
-            and JavaScript, along with proficiency in React. Goal-oriented and
-            creative, I aim to apply technical skills to craft compelling user
-            experiences and propel my professional growth. I am a quick learner,
-            eager to apply my theoretical knowledge to practical challenges. My
-            excellent communication and problem-solving skills, combined with a
-            strong work ethic, make me a valuable asset to any organization.
 
-            {/* A passionate and skilled Frontend Developer, 
-            Motivated Frontend Developer specialized in HTML, CSS,
-             JavaScript, Node.js, and React.js. With hands-on experience in building 
-             responsive and dynamic web applications using React.js, I am proficient 
-             in version control using Git and GitHub, and deploying applications with Render. 
-             I utilize Visual Studio Code as my primary code editor, leveraging its powerful 
-             extensions to enhance my development workflow. Equipped with strong problem-solving 
-             abilities and a fast learner mindset, I thrive in collaborative team environments 
-             while continuously enhancing my technical expertise. Curious by nature, I am eager 
-             to bring creative solutions and fresh perspectives to challenging projects, contributing 
-             to innovative and impactful web development. */}
-          </p>
-          <div  className="btn-boxx">            
-            More About me
-          </div>
-         
-        </div>
-      </section>
+        <section className="about" >
+          {/* <h4>Front End Developer <span style={{color:'aqua'}}> | Former Recruiter | Trainer </span> </h4> */}
+          <h4>Front End Developer  | Former Recruiter | Trainer </h4>
+
+          <ol className="about-list">
+            <li>
+              <strong>Technical Expertise:</strong>
+            
+              <ul>
+                <li>Strong foundation in HTML, CSS, and JavaScript, with proficiency in React.js, Node.js, Express, and MySQL.</li>
+                <li>Experienced in creating responsive and dynamic web applications that work seamlessly across different browsers and devices using modern CSS techniques, media queries, and frameworks such as Bootstrap, Material UI, and React Icons.</li>
+                <li> I actively utilize Git and GitHub for version control, ensuring efficient code management and collaboration.</li>
+                <li>Skilled in deploying applications with Render and leveraging Visual Studio Code with extensions to enhance development workflow.</li>
+                
+              </ul>
+            </li>
+<br/> 
+<br/>
+            <li>
+              <strong>Professional Qualities:</strong>
+              <ul>
+                <li>Goal-oriented and creative problem solver</li>
+                <li>Quick learner, eager to apply theoretical knowledge</li>
+                <li>Strong work ethic and excellent communication skills</li>
+                <li>Thrives in collaborative team environments</li>
+                <li>Passionate about creating impactful web applications</li>
+              </ul>
+            </li>
+            <br/><br/>
+            <li>
+              <strong>Past Experience:</strong>
+              <ul>
+                <li><b>Former Recruiter:</b> Assisted in hiring technical professionals</li>
+                <li><b>Frontend Development Trainer:</b> Trained students in HTML, CSS, JavaScript, and React.js</li>
+              </ul>
+            </li>
+          </ol>
+
+      
+
+        </section>
       </div>
-
     </>
-   
-  )
+  );
 }
 
-export default About
+export default About;

@@ -6,7 +6,8 @@
     background-color: rgb(63, 10, 54);
     color: white;
     min-height: 100vh;
-   text-align: center;  
+    text-align: center;  
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
     
   }
   
@@ -21,7 +22,6 @@
     font-weight: bold;
     position: relative;
     display: inline-block;
-    /* text-decoration:underline; */
     margin-bottom: 20px;
   }
   
@@ -33,18 +33,24 @@
     
   }
   
-  .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  
+
+  .skills-grid{
+    display: flex;
     gap: 20px;
+    width: 100%;
     justify-content: center;
     padding: 10px;
+   
+    
   }
 
   .skill-icon {
     font-size: 40px;
     font-size: 3rem;
     margin-bottom: 8px;
+    
+   
   }
   
   
@@ -60,16 +66,90 @@
   .skill-card:nth-child(10) .skill-icon { color: #7cc1f6; } 
 
   
-  .skill-card {
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
-  }
+
   
   .skill-card:hover {
-    transform: scale(1.05);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+    /* transform: scale(1.05); */
     cursor: pointer;
   }
+
+ 
+  
+.skill-card {
+  background-color: #222;
+  background-color: rgb(46, 11, 41);
+  /* background-color: #421b34; */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.skill-title {
+  font-size: 16px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: aqua;
+  color: white;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .skills-grid {
+    flex-wrap: wrap;  
+    justify-content: center; 
+    gap: 15px; 
+  }
+
+  .skill-card {
+    width: 45%; 
+    padding: 20px; 
+  }
+
+  h2 {
+    font-size: 40px; 
+  }
+
+  h3 {
+    font-size: 20px; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skills-grid {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .skill-card {
+    width: 80%; 
+    padding: 15px; 
+  }
+
+  h2 {
+    font-size: 32px; 
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+}
+
+
+/* .ski{
+  background-color: #32112f;
+  max-width: 96%;
+  margin-left: 2rem;
+  border-radius: 8px;
+  padding: 2rem;
+  background-color: rgb(48, 10, 42);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+} */

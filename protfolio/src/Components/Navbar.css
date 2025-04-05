@@ -1,48 +1,17 @@
 
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 10px;
-    background: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
 
-.logo{
-    position: relative;
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-    opacity: 0s;
-    animation: slideRight 1s ease forwards ;
-}
-
-/* .navbar a{
-    display: inline-block;
-    font-size: 25px;
-    text-decoration: none;
-    font-weight: bold;
-    margin-left: 35px;
-    color: white;
-    transition: .3s;
-    opacity: 0s;
-    animation: slideTop -5s ease forwards;    
-} */
 
 .navbar a:hover{
     color: aqua;  
+    font-weight: bold;
 }
 
 .navbar a {
@@ -51,12 +20,21 @@
     color: white; 
     font-size: 25px;
     font-weight: 500;
-    padding: 10px;
+    padding: 16px;
     transition: 0.3s ease-in-out;
+    border-radius: 5px;   
+    /* font-weight: bold; */
+   
+  }
+
+.navbar{
+    margin-left: 48rem;
+    margin-left: 44rem;
+    margin-top: 0.8rem;
     
   }
-  
-  .navbar a::after {
+
+.navbar a::after {
     content: "";
     position: absolute;
     left: 0;
@@ -67,145 +45,188 @@
     transform: scaleX(0);
     transition: transform 0.3s ease-in-out;
     
+    
   }
   
-  .navbar a:hover::after {
+.navbar a:hover::after {
     transform: scaleX(1);
   }
 
-.home{
-    position: relative;
+.header {
+   
+    top: 0;
+    left: 0;
     width: 100%;
+    padding: 15px 5%;
+    display: flex;
     justify-content: space-between;
-    height: 100vh;
-    background-color:rgb(182, 169, 169) ;
-    background-color: #111;
+    align-items: center;
+    z-index: 100;
+    background-color: rgb(42, 8, 36);
     background-color: rgb(63, 10, 54);
-    background-size: cover;
-    background-position: center;
+    
+    
+}
+
+
+
+
+.home {
     display: flex;
     align-items: center;
-    padding: 70px 10% 0;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: rgb(63, 10, 54);
+    padding: 70px 10%;
 }
 
-.home-content{
-    max-width: 600px;
+.home-content {
+    max-width: 700px;
     color: white;
 }
 
-.home-content h3{
+.home-content h3 {
     font-size: 32px;
     font-weight: 700;
-    opacity: 0;
-    /* animation: slideBottom 1s ease forwards; */
     animation: slideRight 1s ease forwards;
-    
-    
+    /* color: #ff004f; */
 }
 
-.home-content h1{
+.home-content h1 {
     font-size: 56px;
     font-weight: 700;
-    margin: -3px 0; 
-    opacity: 0;  
+    margin: -3px 0;
     animation: slideRight 1s ease forwards;
     color: aqua;
-    
 }
 
-
-.home-scl a{ 
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background-color: transparent;
-    border: 2px solid rgb(14, 91, 122);
-    border-radius: 50%;
-    font-size: 20px;
-    color: rgb(108, 194, 228);
-    color: aqua;
-    text-decoration: none;
-    margin: 30px 15px 30px 0;
-    transition: -5s ease;
-    opacity: 0;
-    animation: slideLeft 1s ease forwards;
-    animation-delay: calc(-2s );
-}
-
-.home-scl a:hover{
-    background-color:  aqua;;
-    box-shadow: 0 0 20px rgb(22, 229, 240);
-    color: black;
-
-    
-}
-
-
-.btn-box{
-    display: inline-block;
-    padding: 12px 20px;
-    background-color: rgb(198, 81, 100);
-    border-radius: 40px;
-    font-size: 16px;
-    color: white;
-    letter-spacing: 1px;
-}
-
-.home-content p{
-    margin-top: 4rem;
+.home-content p {
+    margin-top: 2rem;
     font-size: 1.1rem;
     animation: slideRight 1s ease forwards;
     animation-delay: 1s;
 }
 
+.home-scl a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    font-size: 20px;
+    color: aqua;
+    text-decoration: none;
+    margin: 20px 10px 0 0;
+    transition: 0.3s ease;
+    color: white;
+}
+
+.home-scl a:hover {
+    background-color: aqua;
+    background-color: #ff004f;
+    color: black;
+    box-shadow: 0 0 10px aqua;
+}
+
+.btn-box {
+    display: inline-block;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    padding: 12px 20px;
+    background-color: #ff004f;
+    background-color: aqua;
+    background-color: #ff004f;
+    background-color: #e80e53;
+    border: none;
+    color: black;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;    
+    /* animation: blink 1s infinite alternate; */
+}
+
+    
+  
+.btn-box:hover {
+    background-color: aqua;
+    color: black;
+    box-shadow: 0 0 10px aqua;
+}
 
 
-@keyframes slideRight{
-    0%{
+.home-scl {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    gap: 10px; 
+    margin-top: 20px;
+   
+}
+
+
+
+/* Right Side Aqua Circle Placeholder */
+.home-image {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(191, 220, 220);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 1s ease-in-out;
+    box-shadow: 0 0 40px rgb(171, 52, 163);
+           
+   
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .home {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home-content {
+        max-width: 100%;
+    }
+
+    .home-scl {
+        justify-content: center;
+    }
+
+    .home-image {
+        margin-top: 30px;
+    }
+}
+
+/* Animations */
+@keyframes slideRight {
+    0% {
         transform: translateX(-100px);
         opacity: 0;
     }
-    100%{
+    100% {
         transform: translateX(0px);
         opacity: 1;
     }
 }
 
-@keyframes slideLeft{
-    0%{
-        transform: translateX(100px);
+@keyframes fadeIn {
+    0% {
         opacity: 0;
+        transform: scale(0.8);
     }
-    100%{
-        transform: translateX(0px);
+    100% {
         opacity: 1;
-    }
-}
-
-@keyframes slideTop{
-    0%{
-        transform: translateY(100px);
-        opacity: 0;
-    }
-    100%{
-        transform: translateY(0px);
-        opacity: 1;
-    }
-}
-
-@keyframes slideBottom{
-    0%{
-        transform: translateY(-100px);
-        opacity: 0;
-    }
-    100%{
-        transform: translateY(0px);
-        opacity: 1;
+        transform: scale(1);
     }
 }
 
 
-
-  

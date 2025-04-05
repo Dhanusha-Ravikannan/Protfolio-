@@ -1,94 +1,4 @@
 .projects-container {
-  
-    padding: 40px;
-    background-color: #111;
-    background-color: rgb(63, 10, 54);
-    color: white;
-    min-height: 100vh;
-   text-align: center;  
-    
-  }
-
-  h2 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 2.5rem;
-    font-size: 60px;
-    color: aqua;
-    font-weight: bold;
-    position: relative;
-    display: inline-block;
-    /* text-decoration:underline; */
-    margin-bottom: 20px;
-  }
-
-
-
-
-
-
-
-
-
-  .row {
-    display: flex; /* Enables flexbox */
-    justify-content: space-between; /* Pushes elements to opposite ends */
-    align-items: flex-start; /* Aligns items to the top */
-    gap: 20px; /* Adds spacing between the two sections */
-    flex-wrap: wrap; /* Ensures responsiveness */
-}
-
-.contact-left, .contact-right {
-    flex: 1; /* Allows both sections to take equal space */
-    max-width: 48%; /* Ensures they don’t take full width */
-}
-
-.contact-left {
-    text-align: left; /* Aligns text to the left */
-}
-
-.contact-right {
-    text-align: left; /* Aligns text inside the form */
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px; /* Adds spacing between form elements */
-}
-
-form input, form textarea {
-    width: 100%; /* Ensures input fields span full width */
-    border: 0;
-    outline: none;
-    background-color: #f1e5e5;
-    padding: 15px;
-    margin: 5px 0;
-    color: black; /* Changed to black for better visibility */
-    font-size: 18px;
-    border-radius: 6px;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: rgb(198, 81, 100);
-    color: white;
-    font-size: 18px;
-    border: none;
-    cursor: pointer;
-    border-radius: 6px;
-    transition: 0.3s;
-}
-
-button:hover {
-    background-color: rgb(150, 50, 80);
-}
-
-
-
-
-.contact-container {
   padding: 40px;
   background-color: rgb(63, 10, 54);
   color: white;
@@ -96,67 +6,67 @@ button:hover {
   text-align: center;
 }
 
-.row {
-  display: flex; /* Enables Flexbox */
-  justify-content: space-between; /* Aligns items to opposite sides */
-  align-items: flex-start; /* Aligns them at the top */
-  flex-wrap: wrap; /* Ensures responsiveness */
-  gap: 20px; /* Adds spacing */
+h2 {
+  font-size: 60px;
+  color: aqua;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
-/* Ensuring equal width for both sections */
-.contact-left, .contact-right {
-  width: 48%;
+.projects-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
-/* Aligns text left */
-.contact-left {
+.project-card {
+  background-color: rgb(51, 10, 44);
+  border-radius: 10px;
+  padding: 20px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  width: 30%;
+  min-width: 300px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+h3 {
+  font-size: 24px;
+  color: rgb(198, 81, 100);
+  color: rgb(237, 89, 114);
+  /* text-decoration: underline; */
+}
+
+.card-content p {
+  font-size: 16px;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.card-content ul {
+  list-style-type: none;
+  padding: 0;
   text-align: left;
 }
 
-/* Form styling */
-.contact-right form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-form input, form textarea {
-  width: 100%;
-  border: 0;
-  outline: none;
-  background-color: #f1e5e5;
-  padding: 15px;
-  margin: 5px 0;
-  color: black;
+.card-content ul li {
+  margin-bottom: 10px;
   font-size: 18px;
-  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 8px;
+  border-radius: 5px;
+}
+.github-link{
+  color: aqua;
+
 }
 
-button {
-  padding: 10px 20px;
-  background-color: rgb(198, 81, 100);
-  color: white;
-  font-size: 18px;
-  border: none;
-  cursor: pointer;
-  border-radius: 6px;
-  transition: 0.3s;
-}
-
-button:hover {
-  background-color: rgb(150, 50, 80);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .row {
-      flex-direction: column; /* Stack on small screens */
-      align-items: center;
-      text-align: center;
-  }
-
-  .contact-left, .contact-right {
-      width: 100%;
-  }
-}
