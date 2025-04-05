@@ -12,7 +12,6 @@ const About = () => {
         </div>
 
         <section className="about" >
-          {/* <h4>Front End Developer <span style={{color:'aqua'}}> | Former Recruiter | Trainer </span> </h4> */}
           <h4>Front End Developer  | Former Recruiter | Trainer </h4>
 
           <ol className="about-list">
@@ -47,10 +46,7 @@ const About = () => {
                 <li><b>Frontend Development Trainer:</b> Trained students in HTML, CSS, JavaScript, and React.js</li>
               </ul>
             </li>
-          </ol>
-
-      
-
+          </ol>     
         </section>
       </div>
     </>

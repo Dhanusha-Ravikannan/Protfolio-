@@ -1,19 +1,14 @@
 
 import React from "react";
 import "./Skills.css";
-import { 
-  FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaBootstrap 
-} from "react-icons/fa";
-import { 
-  SiPostman, SiGithub, SiMysql, SiPrisma, SiTailwindcss
-} from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaBootstrap } from "react-icons/fa";
+import { SiPostman, SiGithub, SiMysql, SiPrisma, SiTailwindcss} from "react-icons/si";
 import SkillCard from "./SkillCard";
 import { MdSecurity } from "react-icons/md";
 import { FaPalette } from 'react-icons/fa'; 
 import { SiExpress } from "react-icons/si";
 import { FaBolt } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
-
 import { FaCloudUploadAlt } from "react-icons/fa"; 
 import { MdConnectWithoutContact, MdOutlineLightbulb, MdGroups, MdPsychology,MdOutlineWork,MdSchool, } from "react-icons/md";
 
