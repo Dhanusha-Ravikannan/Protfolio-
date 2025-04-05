@@ -1,15 +1,17 @@
 import React from "react";
 import "./Contact.css";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
+import Footer from './Footer';
 
 
 
 const Contact = () => {
   return (
+    <> 
     <div id="contact" className="contact-container">
-      <h2>
+      <h2 style={{color: " rgb(63, 10, 54)"}}>
        
-        <span style={{ color: "rgb(198, 81, 100)" }}>My</span> Contact{" "}
+        <span style={{ color: "crimson" }}>My</span> Contact{" "}
       </h2>
 <div className="back"> 
       <div className="row">
@@ -44,12 +46,10 @@ const Contact = () => {
           <button> Download CV</button>
         </div>
       </div>
-      <div className="copy-right">
-  <p> Copyright &copy; MyProtfolio 2025   All rights reserved.</p>
-</div>
-
+    </div>   
     </div>
-    </div>
+    <Footer />
+    </>
   );
 };
 
