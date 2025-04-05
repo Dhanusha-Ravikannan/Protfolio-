@@ -27,8 +27,6 @@
   background-color: rgb(51, 10, 44);
   border-radius: 10px;
   padding: 20px;
-  /* padding-left: 20px;
-  padding-right: 20px; */
   width: 30%;
   min-width: 300px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
@@ -43,11 +41,11 @@ h3 {
   font-size: 24px;
   color: rgb(198, 81, 100);
   color: rgb(237, 89, 114);
-  /* text-decoration: underline; */
+  
 }
 
 .card-content p {
-  font-size: 16px;
+  
   font-size: 1.3rem;
   line-height: 1.5;
   text-align: left;
