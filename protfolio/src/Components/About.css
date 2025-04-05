@@ -1,0 +1,147 @@
+
+.about-back {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(63, 10, 54);
+    width: 100%;
+    padding: 50px 0;
+}
+
+.about-title {
+    font-size: 38px;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;  /* Reduced from 8rem to 2rem */
+    color: rgb(198, 81, 100);
+}
+
+.about {
+    text-align: center;
+    width: 90%;
+    background-color: rgb(48, 10, 42);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+
+h4 {
+    font-size: 26px;
+    color: rgb(198, 81, 100);
+    color:rgb(240, 100, 123) ;
+    margin-bottom: 15px;
+    /* color: aqua; */
+}
+
+.about-list {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.about-list ol {
+    list-style: decimal;
+    margin-left: 20px;
+    
+}
+
+.about-list ul {
+    list-style: disc;
+    margin-left: 70px;
+    margin-top: 1rem;
+}
+
+.btn-boxx {
+    margin-top: 20px;
+    background: rgb(198, 81, 100);
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.about-list strong{
+    font-size: 1.5rem;
+    color: aqua;
+} 
+
+
+.about-list li {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 1.3rem;
+    width: 97%;
+}
+
+
+
+
+
+/* 
+
+@media screen and (max-width: 768px) {
+    .about {
+        width: 95%;
+        padding: 25px;
+    }
+
+    .about-title {
+        font-size: 32px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    .about-list strong {
+        font-size: 1.3rem;
+    }
+
+    .about-list ul {
+        margin-left: 40px;
+    }
+
+    .about-list li {
+        font-size: 1rem;
+        padding-left: 10px;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .about-title {
+        font-size: 28px;
+        margin-bottom: 1.5rem;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .about {
+        width: 98%;
+      
+    }
+
+    .about-list strong {
+        font-size: 1.2rem;
+    }
+
+    .about-list ul {
+        margin-left: 0px;
+    }
+
+    .about-list li {
+        font-size: 0.95rem;
+        padding-left: 0px;
+        width: 100%;
+    }
+
+} */

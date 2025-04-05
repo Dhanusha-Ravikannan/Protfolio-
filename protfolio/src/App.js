@@ -4,15 +4,14 @@ import Home from './Pages/Home'
 
 
 
+
 const App = () => {
   return (
     <> 
     <BrowserRouter> 
     <Routes> 
       <Route path='/' element={<Home />} />
-
-
-
+    
     </Routes>   
     </BrowserRouter>
     
