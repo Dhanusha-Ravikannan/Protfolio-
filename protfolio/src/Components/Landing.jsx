@@ -45,9 +45,9 @@ const Landing = () => {
             </a>
           </div>
 
-          <a href="#" className="btn-box animate__animated animate__flash">
+          <button className="btn-box animate__animated animate__flash">
             Download CV
-          </a>
+          </button>
         </div>
 
         <img src={dhanuimage} alt="dhanu" className="home-image" />
