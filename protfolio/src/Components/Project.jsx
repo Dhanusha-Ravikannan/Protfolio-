@@ -1,78 +1,127 @@
-
-import React from 'react';
-import './Project.css';
+import React from "react";
+import "./Project.css";
+import foodImage from "../Assets/food.jpg";
+import jewelleryImage from "../Assets/jewell.jpg";
+import checklistImage from "../Assets/checklist.webp";
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import Typography from "@mui/material/Typography";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const Project = () => {
+  const projects = [
+    {
+      title: "Checklist Genie",
+      image: checklistImage,
+      github: "https://github.com/Dhanusha-Ravikannan/checklist_genie",
+      overview: `Checklist Genie is a task management system designed to streamline checklist creation, assignment, and completion for both admins and users.`,
+      features: [
+        "Admin Access: Restricted to specific email domains.",
+        "Tag Management: Admins can create and assign tags.",
+        "Template Creation: Enables structured checklists.",
+        "Task Assignment: Assign templates to users.",
+        "Item Management: Add, edit, or remove checklist items.",
+        "Task Monitoring: View, edit, and delete checklists.",
+        "User Access: View and submit checklists with email notifications.",
+      ],
+    },
+
+    {
+      title: "Manohar Jewellery",
+      image: jewelleryImage,
+      github: "https://github.com/Dhanusha-Ravikannan/Manohar-Jewellery",
+      overview: `A responsive inventory and billing management system tailored for a jewellery business, designed to automate operations, minimize manual errors, and improve workflow efficiency.`,
+      features: [
+        "Developed a full-fledged inventory and billing system to reduce manual work and human error.",
+        "Implemented automatic weight calculations, adjustment logic, and dynamic product number generation based on minimal input.",
+        "Enabled QR code generation for each product, allowing barcode scanning to auto-fill billing information.",
+        'Automated product status transition from "Active" to "Sold" after billing, with a restoration feature via QR scanning.',
+        "Product barcode generation and scanning integrated into the UI for streamlined operations.",
+        "Supported inventory management with real-time before and after weight tracking.",
+        "Lot-based product grouping system for easy product categorization and tracking.",
+        "Enabled filtered product views, dynamic bill creation, and exportable PDF reports.",
+        "Successfully met client expectations by delivering a responsive, efficient, and automated system that improved operational accuracy and workflow.",
+      ],
+    },
+
+    {
+      title: "Good Foods",
+      image: foodImage,
+      github: "https://github.com/Dhanusha-Ravikannan/Good-Food",
+
+      overview: `A subscription-based food ordering platform with automated daily deliveries. Admins manage the subscription menu, while users can manage their meal plans after subscribing. The system automates delivery tracking and notifications.`,
+
+      features: [
+        "Admin creates subscription plans which users can subscribe to.",
+        "Subscription-based daily meal ordering with auto-delivery logic.",
+        "Skip cart functionality: users can skip meals within a specific time window and reorder them later.",
+        "Admin-controlled daily food menu creation and updates.",
+        "Email notifications for order confirmations and new user subscriptions.",
+        "Responsive design optimized for mobile and desktop users.",
+        "Backend tracking of delivered, skipped, and reordered meals.",
+      ],
+    },
+  ];
+
   return (
-    <div id='projects' className='projects-container'>
-      <h2 style={{color: " rgb(63, 10, 54)"}}>
-        <span style={{ color: 'crimson' }}>My</span> Projects
+    <div id="projects" className="projects-container">
+      <h2>
+        <span style={{ color: "crimson" }}>My</span> Projects
       </h2>
-      <div className='projects-grid'>
-        <div className='project-card'>
-          <h3>Checklist Genie</h3>
-          <div className='card-content'>
-            <p>
-              <strong style={{color:'aqua'}}>Overview:</strong> Checklist Genie is a task management system designed to streamline checklist
-              creation, assignment, and completion for both admins and users. The platform provides an intuitive
-              workflow for managing tasks, ensuring accountability, and automating email notifications upon submission.
-            </p><br/>
-            <ul>
-              <li><strong>Admin Access:</strong> Restricted to specific email domains.</li>
-              <li><strong>Tag Management:</strong> Admins can create and assign tags.</li>
-              <li><strong>Template Creation:</strong> Enables structured checklists.</li>
-              <li><strong>Task Assignment:</strong> Assign templates to users.</li>
-              <li><strong>Item Management:</strong> Add, edit, or remove checklist items.</li>
-              <li><strong>Task Monitoring:</strong> View, edit, and delete checklists.</li>
-              <li><strong>User Access:</strong> View and submit checklists with email notifications.</li>
-            </ul>
-            <a href="https://github.com/Dhanusha-Ravikannan/checklist_genie" className="github-link">
-            View on GitHub 
-    </a>
-            
+      <div className="projects-grid">
+        {projects.map((project, index) => (
+          <div className="project-card" key={index}>
+            <h3>{project.title}</h3>
+            <img
+              src={project.image}
+              alt={project.title}
+              className="project-image"
+            />
+            <div className="card-content">
+              <p className="overview">
+                <strong>Overview:</strong> {project.overview}
+              </p>
+
+              <Accordion className="custom-accordion">
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls={`panel${index}-content`}
+                  id={`panel${index}-header`}
+                  className="custom-summary"
+                >
+                  <Typography
+                    className="accordion-title"
+                    style={{ fontSize: "1rem", fontWeight: "bold" }}
+                  >
+                    View More Details
+                  </Typography>
+                </AccordionSummary>
+                <AccordionDetails className="custom-details">
+                  <ul className="feature-list">
+                    {project.features.map((feature, i) => (
+                      <li key={i}>{feature}</li>
+                    ))}
+                  </ul>
+                </AccordionDetails>
+              </Accordion>
+
+              <div className="card-footer">
+                <a
+                  href={project.github}
+                  className="github-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View on GitHub
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
-        <div className='project-card'>
-          <h3>Manohar Jewellery</h3>
-          <div className='card-content'>
-            <p>
-              <strong style={{color:'aqua'}}>Overview:</strong> A product management system for tracking jewellery inventory, including barcode generation, billing, and product categorization.
-            </p><br/>
-            <ul>
-              <li>Product barcode generation and scanning.</li>
-              <li>Inventory management with weight tracking.</li>
-              <li>Billing system with invoice generation.</li>
-              <li>Lot-based product grouping.</li>
-              <li>Adjustment logic for final weight calculation.</li>
-            </ul>
-            <a href="https://github.com/Dhanusha-Ravikannan/Manohar-Jewellery" className="github-link">
-             View on GitHub
-    </a>
-            
-          </div>
-        </div>
-        <div className='project-card'>
-          <h3>Good Foods</h3>
-          <div className='card-content'>
-            <p>
-              <strong style={{color:'aqua'}}>Overview:</strong> A food ordering and subscription system allowing users to manage meal plans, skip meals, and reorder items seamlessly.
-            </p><br/>
-            <ul>
-              <li>Meal subscription management.</li>
-              <li>Skipped cart section for reordering skipped meals.</li>
-              <li>Automated meal tracking and reporting.</li>
-              <li>Wallet integration for seamless transactions.</li>
-              <li>Mobile-responsive design for user accessibility.</li>
-            </ul>
-            <a href="https://github.com/Dhanusha-Ravikannan/Good-Food" className="github-link">
-             View on GitHub
-    </a>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );
 };
 
 export default Project;
-

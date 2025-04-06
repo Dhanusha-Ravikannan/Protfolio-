@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import "./Navbar.css";
 
@@ -22,7 +21,6 @@ const Navbar = () => {
           <div className="hamburger" onClick={toggleMenu}>
             <i className={`bx ${isOpen ? "bx-x" : "bx-menu"}`}></i>
           </div>
-
         </div>
       </nav>
     </header>

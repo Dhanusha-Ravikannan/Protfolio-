@@ -1,4 +1,3 @@
-
 import React from "react";
 import "./Landing.css";
 import "animate.css";
@@ -12,7 +11,9 @@ const Landing = () => {
       <Navbar />
       <section id="home" className="home">
         <div className="home-content">
-          <h3 className="animate__animated animate__bounceInDown">Hello, It's me</h3>
+          <h3 className="animate__animated animate__bounceInDown">
+            Hello, It's me
+          </h3>
           <h1 className="animate__animated animate__bounceInDown">
             Dhanusha Ravikannan
           </h1>
@@ -36,7 +37,7 @@ const Landing = () => {
             <a href="mailto:dhanusharavi904@gmail.com">
               <i className="bx bxl-gmail"></i>
             </a>
-            <a href="https://github.com/yourgithub">
+            <a href="https://github.com/Dhanusha-Ravikannan">
               <i className="bx bxl-github"></i>
             </a>
             <a href="tel:+9361884122">
