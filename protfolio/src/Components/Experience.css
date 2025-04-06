@@ -1,56 +1,115 @@
-
 .exp-back {
-    background-color: rgb(63, 10, 54);
-    background-color: rgb(147, 129, 150);
-    width: 100%;
-    min-height: 100vh;
-    padding: 50px 0;
+  background-color: rgb(147, 129, 150);
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 20px;
+  box-sizing: border-box;
 }
 
 .exp-head {
-    font-size: 3rem;
-    color: aqua;
-    color: " rgb(63, 10, 54)";
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-align: center;
-    padding: 2rem;
+  font-size: 2.5rem;
+  font-size: 3rem;
+  color: rgb(63, 10, 54);
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 2rem 1rem;
 }
 
 .experience-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .experience-card {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 90%;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
-    background-color: rgb(46, 11, 41);
+  background-color: rgb(46, 11, 41);
+  color: white;
+  padding: 30px;
+  margin: 0rem auto;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 84rem;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
 }
 
 .experience-card h3 {
-    color: rgb(251, 73, 218);
-    font-size: 1.8rem;
+  color: rgb(237, 85, 115);
+  color: rgb(237, 54, 91);
+  font-size: 1.8rem;
+  margin: 0 auto 20px auto;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .experience-card p {
-    font-size: 1.2rem;
-    margin: 5px 0;
+  padding-left: 3rem;
+  margin: 5px 0;
+  line-height: 1.6;
+  font-size: 1.2rem;
 }
 
 .experience-card ul {
-    padding-left: 20px;
+  padding-left: 60px;
+  margin-top: 10px;
 }
 
 .experience-card li {
-    font-size: 1.1rem;
-    margin-bottom: 8px;
-    list-style-type: disc;
+  font-size: 1rem;
+  margin-bottom: 8px;
+  list-style-type: disc;
+  font-size: 1.2rem;
+}
+
+.experience-card strong {
+  color: rgb(243, 92, 122);
+}
+
+.experience-card:hover {
+  background-color: #260e1f;
+  box-shadow: 0 0 20px rgb(103, 16, 97);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .exp-head {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  .experience-card {
+    padding: 20px;
+    width: 95%;
+  }
+
+  .experience-card h3 {
+    font-size: 1.5rem;
+    margin-left: 0;
+  }
+
+  .experience-card p,
+  .experience-card li {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .exp-head {
+    font-size: 1.8rem;
+    padding: 1rem 0.5rem;
+  }
+
+  .experience-card {
+    padding: 15px;
+  }
+
+  .experience-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .experience-card p,
+  .experience-card li {
+    font-size: 0.95rem;
+  }
 }

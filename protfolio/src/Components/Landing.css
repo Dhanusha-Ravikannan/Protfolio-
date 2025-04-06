@@ -26,6 +26,7 @@
     font-weight: 700;
     animation: slideRight 1s ease forwards;
     color: rgb(200, 37, 80);
+    color: rgb(184, 38, 77);
 }
 
 .home-content h1 {
@@ -97,16 +98,16 @@
     width: 100%;
     max-width: 400px;
     height: auto;
-    background-color: rgb(191, 220, 220);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: fadeIn 1s ease-in-out;
-    box-shadow: 0 0 40px rgb(171, 52, 163);
+    box-shadow: 0 0 40px rgb(88, 24, 73);
     object-fit: cover;
     flex: 1 1 300px;
     margin-top: 20px;
+    animation: slideRight 1s ease forwards;
+    
 }
 
 
@@ -179,3 +180,72 @@
 }
 
 
+
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 50px 5%;
+    }
+
+    .home-content h1 {
+        font-size: 42px;
+    }
+
+    .home-content h3 {
+        font-size: 26px;
+    }
+
+    .home-content p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .home-image {
+        max-width: 300px;
+        margin-top: 3rem;
+    }
+
+    .btn-box {
+        font-size: 1.1rem;
+        padding: 10px 18px;
+    }
+
+    .home-scl {
+        justify-content: center;
+        gap: 15px;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-content h1 {
+        font-size: 32px;
+    }
+
+    .home-content h3 {
+        font-size: 26px;
+        color: rgb(173, 34, 62);
+    }
+
+    .home-content p {
+        font-size: 0.95rem;
+    }
+
+    .btn-box {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+
+    .home-image {
+        max-width: 350px;
+        margin-top: 2.5rem;
+    }
+
+    .home-scl a {
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
+    }
+}

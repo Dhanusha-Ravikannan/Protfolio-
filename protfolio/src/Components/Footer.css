@@ -1,22 +1,20 @@
 .copy-right {
-    text-align: center;
-    font-size: 1.2rem;
-    color: #fff;
-    background-color: rgb(63, 10, 54);
-    width: 100%;  
-    padding: 2rem;
-  }
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: rgb(63, 10, 54);
+  width: 100%;
+  padding: 2rem;
+}
 
-  
-  @media (max-width: 768px) {
-    .copy-right {
-      font-size: 14px;
-    }
+@media (max-width: 768px) {
+  .copy-right {
+    font-size: 14px;
   }
-  
-  @media (max-width: 480px) {
-    .copy-right {
-      font-size: 13px;
-    }
+}
+
+@media (max-width: 480px) {
+  .copy-right {
+    font-size: 13px;
   }
-  
+}
