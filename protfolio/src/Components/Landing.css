@@ -22,7 +22,8 @@
 }
 
 .home-content h3 {
-    font-size: 32px;
+   
+    font-size: 2.5rem;
     font-weight: 700;
     animation: slideRight 1s ease forwards;
     color: rgb(200, 37, 80);
@@ -30,18 +31,21 @@
 }
 
 .home-content h1 {
-    font-size: 56px;
+ 
+    font-size: 4rem;
     font-weight: 700;
     margin: -3px 0;
     animation: slideRight 1s ease forwards;
     color: rgb(63, 10, 54);
+    margin-top: 1rem;
 }
 
 .home-content p {
     margin-top: 2rem;
-    font-size: 1.1rem;
+    font-size: 1.39rem;
     animation: slideRight 1s ease forwards;
     animation-delay: 1s;
+   
 }
 
 .home-scl {
@@ -191,6 +195,7 @@
 
     .home-content h1 {
         font-size: 42px;
+        margin-top: 1rem;
     }
 
     .home-content h3 {
@@ -198,7 +203,7 @@
     }
 
     .home-content p {
-        font-size: 1rem;
+        font-size: 1.3rem;
         line-height: 1.6;
     }
 
@@ -221,16 +226,20 @@
 
 @media (max-width: 480px) {
     .home-content h1 {
-        font-size: 32px;
+        font-size: 35px;
+        margin-top: 1rem;
     }
 
     .home-content h3 {
-        font-size: 26px;
+        font-size: 1.9rem;
         color: rgb(173, 34, 62);
+        margin-top: 1.5rem;
     }
 
     .home-content p {
-        font-size: 0.95rem;
+        font-size:1.25rem;
+        color: black;
+        
     }
 
     .btn-box {
@@ -240,12 +249,30 @@
 
     .home-image {
         max-width: 350px;
-        margin-top: 2.5rem;
+        margin-top: 5.5rem;
     }
 
     .home-scl a {
         width: 36px;
         height: 36px;
         font-size: 18px;
+        margin-left: 1rem;
     }
+
+    .home {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        min-height: 100vh;
+        background-color: rgb(147, 129, 150);
+        padding: 0px ;
+        padding-left: 2rem;
+        padding-right: 2rem;
+       
+    }
+    
+
+    
+
 }

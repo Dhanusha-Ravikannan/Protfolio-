@@ -21,7 +21,7 @@ const Landing = () => {
             And I'm a Full Stack Developer
           </h3>
 
-          <p style={{ fontSize: "1.35rem" }}>
+          <p >
             I’m a passionate and results-driven Full Stack Developer with
             expertise in building responsive, high-performance web applications.
             I bring a holistic approach to full stack development, seamlessly

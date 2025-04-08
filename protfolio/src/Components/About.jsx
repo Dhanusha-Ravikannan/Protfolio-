@@ -10,7 +10,7 @@ const About = () => {
         </div>
 
         <section className="about">
-          <h4>Front End Developer | Former Recruiter | Trainer </h4>
+          <h3>Front End Developer | Former US IT Recruiter | Trainer </h3>
 
           <ol className="about-list">
             <li>
@@ -74,7 +74,7 @@ const About = () => {
             <br />
             <br />
             <li>
-              <strong>Additional Experience </strong>
+              <strong>Additional Experience: </strong>
               <ul>
                 <li>
                   <b>Frontend Development Trainer: </b>

@@ -113,8 +113,9 @@ const Project = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  View on GitHub
+                  View on GitHub    <i className="bx bxl-github"></i>
                 </a>
+
               </div>
             </div>
           </div>
