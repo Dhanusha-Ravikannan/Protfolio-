@@ -20,6 +20,9 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   padding: 0 1rem; 
+  padding-left: 4rem;
+  padding-right: 4rem;
+
 }
 
 .project-card {
@@ -30,6 +33,7 @@
   transition: transform 0.3s ease;
   padding: 20px;
   background-color: rgb(51, 10, 44);
+  margin-top: 2rem;
 
 }
 
@@ -37,6 +41,7 @@
  
 color: rgb(235, 64, 98);
  text-align: center;
+ font-size: 1.6rem;
 }
 .project-card:hover {
   transform: translateY(-5px);
@@ -85,6 +90,7 @@ color: rgb(235, 64, 98);
   font-size: 14px;
   font-weight: bold;
   color: rgb(226, 72, 98);
+  background-color: aliceblue;
   
 }
 
@@ -113,6 +119,7 @@ color: rgb(235, 64, 98);
   color: rgb(226, 72, 98);
   font-weight: bold;
   text-decoration: underline;
+  font-size: 1.1rem;
 }
 
 .github-link:hover {
@@ -120,4 +127,34 @@ color: rgb(235, 64, 98);
   text-decoration: underline;
   color: rgb(238, 227, 229);
 
+}
+
+@media screen and (max-width: 480px) {
+.projects-container {
+  padding: 0rem;
+ 
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  padding: 20px;
+  background-color: rgb(51, 10, 44);
+  margin-top: 0rem;
+
+}
+
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 0 1rem; 
+  /* padding-left: 0rem;
+  padding-right: 0rem; */
+
+}
 }

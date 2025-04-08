@@ -13,7 +13,7 @@
 
 .back {
   background-color: rgb(51, 10, 44);
-  max-width: 90%;
+  max-width: 85%;
   padding: 2rem;
   border-radius: 8px;
   display: flex;
@@ -24,14 +24,13 @@
 }
 
 .contact-container h2 {
-  font-size: 3rem;
+  font-size: 3.2rem;
   color: rgb(51, 10, 44);
   font-weight: bold;
   margin-bottom: 2rem;
 }
 
 .sub-title {
-  background-color: rgb(51, 10, 44);
   max-width: 90%;
   padding: 1rem;
   border-radius: 5px;
@@ -97,7 +96,15 @@ button:hover {
 
 .back:hover {
   cursor: pointer;
-  box-shadow: 0 0 10px rgb(103, 16, 97);
+  box-shadow: 0 0 10px rgb(205, 198, 204);
+}
+
+.back:hover{
+  background-color: #260e1f;
+  box-shadow: 0 0 20px rgb(103, 16, 97);
+  box-shadow: 0 0 10px rgb(205, 198, 204);
+  cursor: pointer;
+
 }
 
 @media (max-width: 1024px) {
@@ -137,22 +144,35 @@ button:hover {
   .back {
     max-width: 100%;
     padding: 1rem;
+    padding-bottom: 2rem;
+    margin-top: 0rem;
   }
   h2 {
     font-size: 1.8rem;
   }
   .sub-title {
-    font-size: 0.9rem;
-    padding: 0.8rem;
+    font-size: 1.2rem;
+    padding: 0rem;
   }
   .home-scl {
-    gap: 10px;
+    gap: 0.5px;
   }
+
   button {
     font-size: 0.85rem;
     padding: 8px 16px;
   }
   .copy-right {
     font-size: 13px;
+  }
+
+  .contact-left p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+
+  .contact-left {
+    margin-top: 2.5rem;
+    
   }
 }

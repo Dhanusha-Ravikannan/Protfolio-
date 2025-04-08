@@ -22,7 +22,7 @@
 
 .about {
   text-align: center;
-  width: 90%;
+  width: 85%;
   background-color: rgb(48, 10, 42);
   padding: 30px;
   border-radius: 10px;
@@ -30,9 +30,11 @@
   color: white;
 }
 
-h4 {
-  font-size: 26px;
+.about h3 {
+  font-size: 1.8rem;
   color: rgb(237, 54, 91);
+  color: rgb(221, 61, 93);
+ 
 }
 
 .about-list {
@@ -64,9 +66,8 @@ h4 {
 
 .about-list strong {
   font-size: 1.5rem;
-  color: aqua;
-  color: rgb(203, 74, 128);
   color: rgb(221, 61, 93);
+  text-decoration: underline;
   
 }
 
@@ -75,4 +76,45 @@ h4 {
   padding-left: 20px;
   font-size: 1.3rem;
   width: 97%;
+}
+
+
+@media screen and (max-width: 480px) {
+  .about h3 {
+    font-size: 1.5rem;
+    color: rgb(237, 54, 91);
+    color: rgb(221, 61, 93);
+    
+   
+  }
+
+  .about-list strong {
+    
+    font-size: 1.4rem;
+    color: rgb(221, 61, 93);
+    text-decoration: underline;
+    
+  }
+  .about-list li {
+    text-align: left;
+    padding-left: 0px;
+    font-size: 1.3rem;
+    width: 97%;
+    
+  }
+
+  .about {
+    text-align: center;
+    width: 98%;
+    background-color: rgb(48, 10, 42);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+
+  .about-title{
+    margin-top: 2rem;
+  }
+
 }
