@@ -10,7 +10,9 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar-container">
           <div className={`navbar-links ${isOpen ? "open" : ""}`}>
-            <a href="#home" style={{color:'rgb(188, 6, 42)'}}>Home</a>
+            <a href="#home" style={{ color: "rgb(188, 6, 42)" }}>
+              Home
+            </a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>

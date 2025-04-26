@@ -10,13 +10,13 @@ const Experience = () => {
         </h2>
 
         <div className="experience-card">
-          <h3>Frontend Developer</h3>
+          <h3>Full Stack Developer</h3>
           <br />
           <p>
             <strong>Company:</strong> I-BACUS Tech, Coimbatore{" "}
           </p>
           <p className="role">
-            <strong>Role:</strong> Frontend Developer
+            <strong>Role:</strong> Full Stack Developer
           </p>
           <p>
             <strong>Duration:</strong> May 2024 – Present
@@ -36,58 +36,62 @@ const Experience = () => {
           <ul>
             <li>
               Developed responsive and user-centric front-end applications using
-              React.js and Redux for efficient state management.
+              React.js for dynamic UI behavior and efficient state management.
             </li>
             <li>
-              Designed and implemented accessible user interfaces using Material
-              UI, Tailwind CSS, React Icons, and Media Queries for seamless
-              cross-device compatibility.
+              Designed and implemented accessible and responsive user interfaces
+              using Material UI, Tailwind CSS, React Icons, and media queries to
+              ensure seamless cross-device performance.
             </li>
             <li>
-              Built scalable UI components for complex use cases including
-              billing systems, wallet management, subscription flows, and task
-              management tools.
+              Integrated front-end components with back-end services for
+              real-time data fetching, secure user authentication (JWT), and
+              comprehensive error handling.
             </li>
             <li>
-              Built and optimized full-stack inventory and billing systems with
-              QR code scanning, automated status tracking, and dynamic PDF
-              generation.
+              Built and maintained RESTful API endpoints using Node.js and
+              Express.js to handle CRUD operations, authentication, and key
+              business logic.
             </li>
             <li>
-              Designed and implemented subscription-based food ordering flows
-              with skipped cart handling, wallet logic, and automated daily
-              order tracking.
+              Created and managed MySQL databases, utilizing Prisma ORM for
+              efficient querying, schema migrations, and relational data
+              modeling.
             </li>
             <li>
-              Developed interactive and responsive UI for checklist-based
-              productivity tools, incorporating drag-and-drop functionality and
-              dynamic form logic.
+              Actively identified, debugged, and resolved real-time issues in
+              live production environments, gaining hands-on experience with
+              optimizing performance, managing deployment logs, and maintaining
+              scalable and maintainable codebases for long-term reliability.
             </li>
             <li>
-              Collaborated with backend teams to integrate REST APIs and ensure
-              real-time data syncing across client interfaces.
+              Used Git and GitHub for version control, handling branching
+              strategies, pull requests, code reviews, and collaborative
+              development workflows.
             </li>
             <li>
-              Maintained seamless responsiveness and consistent API integration
-              across user flows to ensure smooth user experience.
+              Collaborated directly with clients to gather requirements, propose
+              solutions, and deliver successful projects that met and often
+              exceeded expectations.
             </li>
             <li>
-              Deployed full-stack applications via Render, ensuring reliability,
-              scalability, and production-level performance.
+              Maintained mobile responsiveness, smooth API integration, and
+              clean UI flows across user journeys.
             </li>
             <li>
+              Actively performed API testing using Postman and Thunder Client to
+              ensure backend functionality and seamless integration with the
+              frontend.
+            </li>
+            <li>
+              {" "}
               Gained hands-on experience troubleshooting real-time deployment
               issues and maintaining clean, scalable codebases.
             </li>
             <li>
-              Used Git and GitHub for version control, managing branching
-              strategies, pull requests, and collaborative workflows
-              efficiently.
-            </li>
-            <li>
-              Worked directly with clients and cross-functional teams to gather
-              requirements, propose solutions, and deliver scalable,
-              maintainable applications.
+              Deployed full-stack applications to Render, configuring build
+              pipelines, managing environment variables, and ensuring
+              production-ready performance.
             </li>
           </ul>
         </div>
@@ -116,7 +120,15 @@ const Experience = () => {
             <li>
               Recruited for a wide range of roles including Salesforce
               Developer, Program Manager, Data Scientist, Data Engineer, and
-              Java Developer.
+              Java Developer by utilizing Job Diva and LinkedIn networking
+              strategies to source, screen, and hire qualified candidates across
+              multiple technical domains.
+            </li>
+
+            <li>
+              Utilized Applicant Tracking Systems (ATS) to efficiently manage
+              candidate pipelines, track applicant progress, and streamline the
+              end-to-end recruitment process.
             </li>
             <li>
               Placed candidates for various technical positions and consistently
@@ -127,6 +139,7 @@ const Experience = () => {
               engaging top-tier IT professionals using various recruitment tools
               and platforms.
             </li>
+
             <li>
               Maintained strong relationships with clients and consultants,
               contributing to repeat business, referrals, and the organization’s

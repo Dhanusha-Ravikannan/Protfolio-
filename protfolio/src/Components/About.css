@@ -4,10 +4,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(63, 10, 54);
-  background-color: rgb(147, 129, 150);
   width: 100%;
   padding: 50px 0;
+  background-image: url(../Assets/landd.jpg);
+  background-size: cover;
 }
 
 .about-title {
@@ -15,7 +15,7 @@
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 2rem; 
+  margin-bottom: 2rem;
   color: rgb(198, 81, 100);
   color: crimson;
 }
@@ -23,18 +23,18 @@
 .about {
   text-align: center;
   width: 85%;
-  background-color: rgb(48, 10, 42);
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+  background-color: transparent;
+  background-color: rgb(63, 10, 54);
   color: white;
 }
 
 .about h3 {
   font-size: 1.8rem;
-  color: rgb(237, 54, 91);
-  color: rgb(221, 61, 93);
- 
+  color: rgb(184, 38, 77);
+  animation: highlight 1s ease-out infinite alternate;
 }
 
 .about-list {
@@ -68,7 +68,6 @@
   font-size: 1.5rem;
   color: rgb(221, 61, 93);
   text-decoration: underline;
-  
 }
 
 .about-list li {
@@ -78,43 +77,54 @@
   width: 97%;
 }
 
+@keyframes highlight {
+  0% {
+    color: rgb(221, 61, 93);
+    color: rgb(48, 10, 42);
+    color: rgb(226, 222, 223);
+  }
+  100% {
+    color: rgb(229, 233, 235);
+    color: rgb(48, 10, 42);
+    color: rgb(241, 46, 85);
+    text-shadow: 0 0 10px rgb(99, 51, 109);
+  }
+}
 
 @media screen and (max-width: 480px) {
   .about h3 {
     font-size: 1.5rem;
     color: rgb(237, 54, 91);
     color: rgb(221, 61, 93);
-    
-   
   }
 
   .about-list strong {
-    
     font-size: 1.4rem;
     color: rgb(221, 61, 93);
     text-decoration: underline;
-    
   }
+
+  .about-back {
+    background-image: url("https://media.istockphoto.com/id/1292991881/photo/the-more-you-know-the-more-your-business-grows.jpg?s=2048x2048&w=is&k=20&c=wgkxUyB-8SLQKSkt44783IzKQL_bok8Y_EZUxcA1J1g=");
+    background-size: cover;
+  }
+
   .about-list li {
     text-align: left;
     padding-left: 0px;
     font-size: 1.3rem;
     width: 97%;
-    
   }
 
   .about {
     text-align: center;
-    width: 98%;
-    background-color: rgb(48, 10, 42);
+    width: 90%;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
-    color: white;
   }
 
-  .about-title{
+  .about-title {
     margin-top: 2rem;
   }
-
 }
