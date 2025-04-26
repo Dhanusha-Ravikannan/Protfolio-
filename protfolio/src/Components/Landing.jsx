@@ -8,8 +8,8 @@ import Navbar from "./Navbar.";
 const Landing = () => {
   return (
     <>
-      <Navbar />
       <section id="home" className="home">
+        <Navbar />
         <div className="home-content">
           <h3 className="animate__animated animate__bounceInDown">
             Hello, It's me
@@ -21,7 +21,7 @@ const Landing = () => {
             And I'm a Full Stack Developer
           </h3>
 
-          <p >
+          <p>
             I’m a passionate and results-driven Full Stack Developer with
             expertise in building responsive, high-performance web applications.
             I bring a holistic approach to full stack development, seamlessly

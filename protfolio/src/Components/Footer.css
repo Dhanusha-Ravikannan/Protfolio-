@@ -1,10 +1,11 @@
 .copy-right {
   text-align: center;
   font-size: 1.2rem;
-  color: #fff;
-  background-color: rgb(63, 10, 54);
+  color: #121111;
+  background-color: rgb(161, 156, 156);
   width: 100%;
   padding: 2rem;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
@@ -16,5 +17,7 @@
 @media (max-width: 480px) {
   .copy-right {
     font-size: 13px;
+    background-color: rgb(240, 240, 240);
+    
   }
 }

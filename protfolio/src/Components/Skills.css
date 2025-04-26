@@ -1,11 +1,10 @@
 .skills-containeer {
   padding: 40px;
-  background-color: #111;
-  background-color: rgb(63, 10, 54);
-  background-color: rgb(147, 129, 150);
   color: white;
   min-height: 100vh;
   text-align: center;
+  background-image: url("https://i.pinimg.com/736x/23/fc/b0/23fcb0c67bab5179efeaf1cfcc8eafc9.jpg");
+  background-size: cover;
 }
 
 .skills-containeer h2 {
@@ -46,13 +45,13 @@ h3 {
   color: #1572b6;
 }
 .skill-card:nth-child(3) .skill-icon {
-  color: #f7df1e;
+  color: #eab30f;
 }
 .skill-card:nth-child(4) .skill-icon {
-  color: #61dafb;
+  color: #1f87a4;
 }
 .skill-card:nth-child(5) .skill-icon {
-  color: #83cd29;
+  color: rgb(222, 58, 135);
 }
 .skill-card:nth-child(6) .skill-icon {
   color: #f05032;
@@ -105,6 +104,7 @@ h3 {
   .skill-card {
     width: 80%;
     padding: 15px;
+    background-color: aliceblue;
   }
 
   h2 {
@@ -115,8 +115,11 @@ h3 {
     font-size: 26px;
   }
 }
+.skills-containeer {
+  background-image: url(../Assets/landd.jpg);
+  background-size: cover;
+}
 
-
-.heading-name{
+.heading-name {
   color: #c71a54;
 }

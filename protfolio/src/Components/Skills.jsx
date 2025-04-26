@@ -41,7 +41,9 @@ const Skills = () => {
           <span style={{ color: " rgb(63, 10, 54)" }}>Skills</span>
         </h2>
         <div className="skill-head">
-          <h3 style={{ color: "black", fontSize:'1.8rem' }}>Frontend & UI Technologies</h3>
+          <h3 style={{ color: "black", fontSize: "1.8rem" }}>
+            Frontend & UI Technologies
+          </h3>
           <div className="skills-grid">
             <SkillCard
               icon={<FaHtml5 className="skill-icon" />}
@@ -73,7 +75,9 @@ const Skills = () => {
             />
           </div>
 
-          <h3 style={{ color: "black", fontSize:'1.8rem' }}>Backend & Database Technologies</h3>
+          <h3 style={{ color: "black", fontSize: "1.8rem" }}>
+            Backend & Database Technologies
+          </h3>
           <div className="skills-grid">
             <SkillCard
               icon={<FaNodeJs className="skill-icon" />}
@@ -93,7 +97,9 @@ const Skills = () => {
             />
           </div>
 
-          <h3 style={{ color: "black", fontSize:'1.8rem' }}>Version Control & Deployment</h3>
+          <h3 style={{ color: "black", fontSize: "1.8rem" }}>
+            Version Control & Deployment
+          </h3>
           <div className="skills-grid">
             <SkillCard icon={<FaGitAlt className="skill-icon" />} title="Git" />
             <SkillCard
@@ -106,7 +112,9 @@ const Skills = () => {
             />
           </div>
 
-          <h3 style={{ color: "black", fontSize:'1.8rem' }}>API, Testing & Security Tools</h3>
+          <h3 style={{ color: "black", fontSize: "1.8rem" }}>
+            API, Testing & Security Tools
+          </h3>
           <div className="skills-grid">
             <SkillCard
               icon={<SiPostman className="skill-icon" />}
@@ -126,7 +134,9 @@ const Skills = () => {
             />
           </div>
 
-          <h3 style={{ color: "black", fontSize:'1.8rem' }}>Professional Skills</h3>
+          <h3 style={{ color: "black", fontSize: "1.8rem" }}>
+            Professional Skills
+          </h3>
           <div className="skills-grid">
             <SkillCard
               icon={<MdConnectWithoutContact className="skill-icon" />}
