@@ -31,7 +31,7 @@ const Contact = () => {
                 <a href="https://www.linkedin.com/in/dhanusha-ravikannan-18b15320b/">
                   <i className="bx bxl-linkedin-square"></i>
                 </a>
-                <a href="mailto:dhanushravi904@gmail.com">
+                <a href="mailto:dhanusharavikannan21@gmail.com">
                   <i className="bx">
                     {" "}
                     <MdOutlineMarkEmailRead />
@@ -40,7 +40,7 @@ const Contact = () => {
                 <a href="https://github.com/Dhanusha-Ravikannan">
                   <i className="bx bxl-github"></i>
                 </a>
-                <a href="tel:+9361884122">
+                <a href="tel:+91 9361884122">
                   <i className="bx bxs-phone"></i>
                 </a>
               </div>

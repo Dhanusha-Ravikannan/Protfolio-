@@ -41,7 +41,7 @@ const Landing = () => {
             <a href="https://github.com/Dhanusha-Ravikannan">
               <i className="bx bxl-github"></i>
             </a>
-            <a href="tel:+9361884122">
+            <a href="tel:+91 9361884122">
               <i className="bx bxs-phone"></i>
             </a>
           </div>
