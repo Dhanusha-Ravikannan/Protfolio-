@@ -4,6 +4,7 @@ import "animate.css";
 import "boxicons/css/boxicons.min.css";
 import dhanuimage from "../Assets/dann.jpg";
 import Navbar from "./Navbar.";
+import Resume from '../Assets/Dhanusha_Resume.pdf'
 
 const Landing = () => {
   return (
@@ -34,7 +35,7 @@ const Landing = () => {
             <a href="https://www.linkedin.com/in/dhanusha-ravikannan-18b15320b/">
               <i className="bx bxl-linkedin-square"></i>
             </a>
-            <a href="mailto:dhanusharavi904@gmail.com">
+            <a href="mailto:dhanusharavikannan21@gmail.com">
               <i className="bx bxl-gmail"></i>
             </a>
             <a href="https://github.com/Dhanusha-Ravikannan">
@@ -45,9 +46,21 @@ const Landing = () => {
             </a>
           </div>
 
-          <button className="btn-box animate__animated animate__flash">
+          {/* <button className="btn-box animate__animated animate__flash">
             Download CV
-          </button>
+          </button> */}
+        
+          <a 
+  href={Resume}  
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="btn-box animate__animated animate__flash"
+>
+  Download CV
+</a>
+
+
+          
         </div>
 
         <img src={dhanuimage} alt="dhanu" className="home-image" />

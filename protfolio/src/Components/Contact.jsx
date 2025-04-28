@@ -2,6 +2,7 @@ import React from "react";
 import "./Contact.css";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 import Footer from "./Footer";
+import Resume from '../Assets/Dhanusha_Resume.pdf'
 
 const Contact = () => {
   return (
@@ -20,7 +21,7 @@ const Contact = () => {
             </h3>
             <div className="contact-left">
               <p>
-                <span> Email Id:</span> dhanushravi904@gmail.com
+                <span> Email Id:</span> dhanushravikannan21@gmail.com
               </p>
               <p>
                 <span> Phone No: </span> (+91) 9361884122
@@ -43,7 +44,11 @@ const Contact = () => {
                   <i className="bx bxs-phone"></i>
                 </a>
               </div>
-              <button> Download CV</button>
+              <a href={Resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-box animate__animated animate__flash"
+              > Download CV</a>
             </div>
           </div>
         </div>

@@ -13,7 +13,7 @@ const Experience = () => {
           <h3>Full Stack Developer</h3>
           <br />
           <p>
-            <strong>Company:</strong> I-BACUS Tech, Coimbatore{" "}
+            <strong>Company:</strong> I-Bacus Tech Solutions Pvt. Ltd., Coimbatore
           </p>
           <p className="role">
             <strong>Role:</strong> Full Stack Developer
