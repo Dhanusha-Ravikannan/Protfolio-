@@ -21,10 +21,10 @@ const Contact = () => {
             </h3>
             <div className="contact-left">
               <p>
-                <span> Email Id:</span> dhanushravikannan21@gmail.com
+                <span style={{fontWeight:'bold'}}> Email Id:</span> dhanusharavikannan21@gmail.com
               </p>
               <p>
-                <span> Phone No: </span> (+91) 9361884122
+                <span style={{fontWeight:'bold'}}> Phone No: </span> (+91) 9361884122
               </p>
 
               <div className="homme-scl">
