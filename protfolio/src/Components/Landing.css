@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -262,5 +262,144 @@
     padding-left: 2rem;
     padding-right: 2rem;
    
+  }
+} */
+
+
+/* General reset */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Home Section */
+.home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 10%;
+  min-height: 100vh;
+  background: linear-gradient(to right, #f8fbff, #e0e7ff);
+  color: #1f2937;
+  position: relative;
+  overflow: hidden;
+
+}
+
+/* Content area */
+.home-content {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.home-content h3 {
+  font-size: 1.8rem;
+  color: #4f46e5;
+  margin-bottom: 0.5rem;
+  color:rgb(188, 51, 78);
+  
+ 
+}
+
+.home-content h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+  color: #111827;
+  color: rgb(64, 18, 64);
+}
+
+.home-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-top: 10px;
+  color: #374151;
+}
+
+/* Social Links */
+.home-scl {
+  margin-top: 20px;
+}
+
+.home-scl a {
+  font-size: 1.8rem;
+  margin-right: 15px;
+  color: #4b5563;
+  transition: color 0.3s ease;
+  color: rgb(64, 18, 64);
+}
+
+.home-scl a:hover {
+  color: #6366f1;
+ color:rgb(188, 51, 78);
+  
+}
+
+/* Button */
+.btn-box {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 28px;
+  background-color: #4f46e5;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background 0.3s ease;
+  animation-delay: 1s;
+  background-color:rgb(188, 51, 78);
+  
+  
+  
+}
+
+.btn-box:hover {
+  background-color: #4338ca;
+  background-color:rgb(146, 30, 53);
+}
+
+/* Image */
+.home-image {
+  flex: 1;
+  max-width: 400px;
+  border-radius: 50%;
+  border: 5px solid #c7d2fe;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .home {
+    flex-direction: column-reverse;
+    padding: 50px 5%;
+    text-align: center;
+  }
+
+  .home-content {
+    padding: 0;
+  }
+
+  .home-image {
+    margin-bottom: 30px;
+  }
+
+  .home-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .home-content h3 {
+    font-size: 1.5rem;
+  }
+
+  .btn-box {
+    font-size: 0.95rem;
+    padding: 10px 24px;
   }
 }

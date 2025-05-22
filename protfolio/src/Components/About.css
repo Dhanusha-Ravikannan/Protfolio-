@@ -1,4 +1,4 @@
-.about-back {
+/* .about-back {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -126,5 +126,195 @@
 
   .about-title {
     margin-top: 2rem;
+  }
+} */
+
+
+/* .about-section {
+  padding: 4rem 2rem;
+  background-color: #fff0f5;
+  background: linear-gradient(to right, #f8fbff, #e0e7ff);
+  text-align: center;
+}
+
+.about-heading {
+  font-size: 2.5rem;
+  color: rgb(63, 10, 54);
+  margin-bottom: 1rem;
+}
+
+.about-subtitle {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 3rem;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  background-color: #f1eeee;
+  padding: 5rem;
+}
+
+.about-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.about-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.about-title {
+  flex: 1;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #8b0000;
+  min-width: 200px;
+  text-align: left;
+}
+
+.about-list {
+  flex: 2;
+  list-style-position: inside;
+  padding-left: 1rem;
+  color: #333;
+  margin: 0;
+}
+
+.about-list li {
+  margin-bottom: 0.5rem;
+}
+
+
+@media (max-width: 768px) {
+  .about-row,
+  .about-row.reverse {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-title {
+    text-align: center;
+  }
+
+  .about-list {
+    text-align: center;
+    padding-left: 0;
+  }
+} */
+
+.about-back {
+  background: linear-gradient(to right, #f8fbff, #e0e7ff);
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: crimson;
+  padding-top: 1rem;
+}
+
+.about-subheading {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+/* Container with responsive width */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 83%;
+  margin: 0 auto;
+  padding: 3rem;
+  background: linear-gradient(to right, #f8fbff, #e0e7ff);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Row layout with zig-zag design */
+.about-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+  gap: 0rem;
+  flex-wrap: wrap;
+}
+
+.about-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.about-heading {
+  flex: 1;
+  font-weight: bold;
+  font-size: 1.3rem;
+  min-width: 200px;
+  color: crimson;
+}
+
+.about-content {
+  flex: 2;
+  list-style: disc;
+  padding-left: 1rem;
+  color: #444;
+  margin: 0;
+}
+
+.about-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+/* Responsive Styling for tablets and smaller */
+@media (max-width: 1024px) {
+  .about-container {
+    width: 90%;
+    padding: 2rem;
+  }
+
+  .about-title {
+    font-size: 2.4rem;
+  }
+
+  .about-subheading {
+    font-size: 1.3rem;
+  }
+}
+
+/* Responsive Styling for phones */
+@media (max-width: 768px) {
+  .about-row,
+  .about-row.reverse {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-heading {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-content {
+    text-align: center;
+    padding-left: 0;
+    font-size: 0.95rem;
+  }
+
+  .about-container {
+    width: 95%;
+    padding: 1.5rem;
   }
 }

@@ -8,9 +8,9 @@ import Resume from '../Assets/Dhanusha_Resume.pdf'
 
 const Landing = () => {
   return (
-    <>
+    <> <Navbar />
       <section id="home" className="home">
-        <Navbar />
+       
         <div className="home-content">
           <h3 className="animate__animated animate__bounceInDown">
             Hello, It's me
@@ -45,10 +45,6 @@ const Landing = () => {
               <i className="bx bxs-phone"></i>
             </a>
           </div>
-
-          {/* <button className="btn-box animate__animated animate__flash">
-            Download CV
-          </button> */}
         
           <a 
   href={Resume}  

@@ -1,4 +1,4 @@
-.projects-container {
+/* .projects-container {
   padding: 2rem;
   background-color: rgb(147, 129, 150);
   background-image: url("https://i.pinimg.com/736x/23/fc/b0/23fcb0c67bab5179efeaf1cfcc8eafc9.jpg");
@@ -142,5 +142,141 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     padding: 0 1rem;
+  }
+} */
+
+
+
+/* Base */
+.projects-container {
+  padding: 80px 10%;
+  background: linear-gradient(to right, #f8fbff, #e0e7ff);
+  color: rgb(64, 18, 64);
+  min-height: 100vh;
+}
+
+.projects-container h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 60px;
+  font-weight: bold;
+  color: rgb(64, 18, 64);
+}
+
+/* Grid layout */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+/* Individual Card */
+.project-card {
+  background-color: #2c082c;
+  color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(64, 18, 64, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background: linear-gradient(to right, #f8fbff, #e0e7ff);
+  color: black;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(64, 18, 64, 0.4);
+}
+
+/* Card Image */
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Card Content */
+.card-content {
+  padding: 20px;
+  flex: 1;
+}
+
+.card-content h3 {
+  margin-bottom: 10px;
+  color: rgb(188, 51, 78);
+}
+
+.overview {
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  
+}
+
+.overview strong{
+ 
+  color: rgb(188, 51, 78);
+}
+
+/* Accordion Styling */
+.custom-accordion {
+  background-color: #fff0f5;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.custom-summary {
+  background-color: rgb(188, 51, 78);
+  color: white;
+  border-radius: 8px 8px 0 0;
+}
+
+.custom-details {
+  background-color: #f9f3f5;
+  border-radius: 0 0 8px 8px;
+  padding: 15px;
+}
+
+.feature-list {
+  padding-left: 18px;
+}
+
+.feature-list li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  
+}
+
+/* GitHub Link */
+.card-footer {
+  margin-top: 15px;
+  text-align: right;
+}
+
+.github-link {
+  color: rgb(188, 51, 78);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.github-link:hover {
+  color: rgb(64, 18, 64);
+}
+
+.accordion-title:hover{
+  color: #f8fbff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .projects-container h2 {
+    font-size: 2.2rem;
+  }
+
+  .project-image {
+    height: 180px;
   }
 }
