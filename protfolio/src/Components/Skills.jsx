@@ -41,7 +41,7 @@ const Skills = () => {
           <span style={{ color: " rgb(63, 10, 54)" }}>Skills</span>
         </h2>
         <div className="skill-head">
-          <h3 style={{ color: "black", fontSize: "1.8rem" }}>
+          <h3 style={{ color: "crimson", fontSize: "1.5rem" }}>
             Frontend & UI Technologies
           </h3>
           <div className="skills-grid">
@@ -74,8 +74,8 @@ const Skills = () => {
               title="Tailwind CSS"
             />
           </div>
-
-          <h3 style={{ color: "black", fontSize: "1.8rem" }}>
+<br/>
+          <h3 style={{ color: "crimson", fontSize: "1.5rem" }}>
             Backend & Database Technologies
           </h3>
           <div className="skills-grid">
@@ -96,8 +96,8 @@ const Skills = () => {
               title="Prisma"
             />
           </div>
-
-          <h3 style={{ color: "black", fontSize: "1.8rem" }}>
+          <br/>
+          <h3 style={{ color: "crimson", fontSize: "1.5rem" }}>
             Version Control & Deployment
           </h3>
           <div className="skills-grid">
@@ -111,8 +111,8 @@ const Skills = () => {
               title="Render Deployment"
             />
           </div>
-
-          <h3 style={{ color: "black", fontSize: "1.8rem" }}>
+          <br/>
+          <h3 style={{ color: "crimson", fontSize: "1.5rem" }}>
             API, Testing & Security Tools
           </h3>
           <div className="skills-grid">
@@ -133,8 +133,8 @@ const Skills = () => {
               title="VS Code"
             />
           </div>
-
-          <h3 style={{ color: "black", fontSize: "1.8rem" }}>
+          <br/>
+          <h3 style={{ color: "crimson", fontSize: "1.5rem" }}>
             Professional Skills
           </h3>
           <div className="skills-grid">

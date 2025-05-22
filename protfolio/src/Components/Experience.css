@@ -1,4 +1,4 @@
-.exp-back {
+/* .exp-back {
   background-image: url("https://i.pinimg.com/736x/23/fc/b0/23fcb0c67bab5179efeaf1cfcc8eafc9.jpg");
   width: 100%;
   min-height: 100vh;
@@ -69,7 +69,6 @@
 }
 
 .experience-card:hover {
-  /* background-color: #260e1f; */
   box-shadow: 0 0 10px rgb(205, 198, 204);
   cursor: pointer;
 }
@@ -140,5 +139,100 @@
   .exp-back {
     background-image: url("https://media.istockphoto.com/id/1292991881/photo/the-more-you-know-the-more-your-business-grows.jpg?s=2048x2048&w=is&k=20&c=wgkxUyB-8SLQKSkt44783IzKQL_bok8Y_EZUxcA1J1g=");
     background-size: cover;
+  }
+} */
+
+
+
+/* Background Section */
+.exp-back {
+  background: linear-gradient(to right, #f8fbff, #e0e7ff);
+  padding: 80px 10%;
+  min-height: 100vh;
+  color: rgb(64, 18, 64);
+}
+
+/* Heading */
+.exp-head {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 60px;
+  color: rgb(64, 18, 64);
+}
+
+/* Experience Card */
+.experience-card {
+  background-color: #2c082c;
+  color: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(64, 18, 64, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(to right, #f8fbff, #e0e7ff);
+  color: black;
+}
+
+.experience-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 25px rgba(64, 18, 64, 0.4);
+}
+
+/* Titles and Company Names */
+.experience-card h3 {
+  color: rgb(188, 51, 78);
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+ 
+}
+
+.company-name,
+.role,
+.duration {
+  font-size: 1.2rem;
+  margin: 4px 0;
+}
+
+.key-heading {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: rgb(188, 51, 78);
+  
+}
+
+/* Paragraphs */
+.experience-card p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  font-size: 1rem;
+}
+
+/* List */
+.experience-card ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.experience-card ul li {
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  /* color: #e7d0f1; */
+  font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .exp-head {
+    font-size: 2.2rem;
+  }
+
+  .experience-card {
+    padding: 20px;
+  }
+
+  .experience-card h3 {
+    font-size: 1.5rem;
   }
 }

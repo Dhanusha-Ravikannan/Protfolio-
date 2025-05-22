@@ -1,4 +1,4 @@
-.copy-right {
+/* .copy-right {
   text-align: center;
   font-size: 1.2rem;
   color: #121111;
@@ -19,5 +19,40 @@
     font-size: 13px;
     background-color: rgb(240, 240, 240);
     
+  }
+} */
+
+
+
+/* Footer Base */
+.copy-right {
+  background-color: #2c082c;
+  color: #e5c9e5;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.95rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.5px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(to right, #eceff4, #cdd2e3);
+  color: #181618;
+}
+
+/* Hover animation for fun touch (optional) */
+.copy-right p {
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+.copy-right p:hover {
+  color: crimson;
+}
+
+/* Responsive font adjustment */
+@media (max-width: 600px) {
+  .copy-right {
+    font-size: 0.85rem;
+    padding: 15px 0;
   }
 }

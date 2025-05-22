@@ -1,10 +1,11 @@
 import React from "react";
 import "./Experience.css";
+import { pink } from "@mui/material/colors";
 
 const Experience = () => {
   return (
-    <div className="exp-back">
-      <section id="experience">
+    <div id="experience"  className="exp-back">
+      <section >
         <h2 className="exp-head" style={{ color: " rgb(63, 10, 54)" }}>
           <span style={{ color: "crimson" }}>My</span> Experience
         </h2>
@@ -29,10 +30,10 @@ const Experience = () => {
             and user-focused web applications tailored to business needs.
           </p>
           <br />
-          <p>
+          <p style={{color:'rgb(188, 51, 78)', fontSize:'1.2rem'}}>
             <strong>Key Achievements:</strong>
           </p>{" "}
-          <br />
+        
           <ul>
             <li>
               Developed responsive and user-centric front-end applications using
@@ -108,10 +109,10 @@ const Experience = () => {
             <strong>Duration:</strong> Feb 2023 – May 2024
           </p>{" "}
           <br />
-          <p className="key-heading">
-            <strong>Key Responsibilities:</strong>
+          <p style={{color:'rgb(188, 51, 78)', fontSize:'1.2rem'}}>
+            <strong>Key Achievements:</strong>
           </p>{" "}
-          <br />
+       
           <ul>
             <li>
               Worked closely with direct clients such as Meta, Tesla, and
@@ -149,6 +150,7 @@ const Experience = () => {
         </div>
       </section>
     </div>
+    
   );
 };
 
