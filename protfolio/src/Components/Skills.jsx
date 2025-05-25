@@ -1,36 +1,12 @@
 import React from "react";
 import "./Skills.css";
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaJs,
-  FaReact,
-  FaNodeJs,
-  FaGitAlt,
-  FaBootstrap,
-} from "react-icons/fa";
-import {
-  SiPostman,
-  SiGithub,
-  SiMysql,
-  SiPrisma,
-  SiTailwindcss,
-} from "react-icons/si";
+import {FaHtml5,FaCss3Alt,FaJs,FaReact,FaNodeJs,FaGitAlt,FaBootstrap} from "react-icons/fa";
+import {SiPostman,SiGithub,SiMysql,SiPrisma,SiTailwindcss} from "react-icons/si";
 import SkillCard from "./SkillCard";
 import { MdSecurity } from "react-icons/md";
-import { FaPalette } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
-import { FaBolt } from "react-icons/fa";
-import { FaCode } from "react-icons/fa";
-import { FaCloudUploadAlt } from "react-icons/fa";
-import {
-  MdConnectWithoutContact,
-  MdOutlineLightbulb,
-  MdGroups,
-  MdPsychology,
-  MdOutlineWork,
-  MdSchool,
-} from "react-icons/md";
+import { FaCode,  FaBolt ,FaCloudUploadAlt, FaPalette  } from "react-icons/fa";
+import { MdConnectWithoutContact, MdOutlineLightbulb, MdGroups, MdPsychology, MdOutlineWork, MdSchool} from "react-icons/md";
 
 const Skills = () => {
   return (
@@ -41,7 +17,7 @@ const Skills = () => {
           <span style={{ color: " rgb(63, 10, 54)" }}>Skills</span>
         </h2>
         <div className="skill-head">
-          <h3 style={{ color: "crimson", fontSize: "1.5rem" }}>
+          <h3 style={{  fontSize: "1.5rem" , color:'crimson' }}>
             Frontend & UI Technologies
           </h3>
           <div className="skills-grid">
@@ -75,7 +51,7 @@ const Skills = () => {
             />
           </div>
 <br/>
-          <h3 style={{ color: "crimson", fontSize: "1.5rem" }}>
+          <h3 style={{  fontSize: "1.5rem" }}>
             Backend & Database Technologies
           </h3>
           <div className="skills-grid">
@@ -97,7 +73,7 @@ const Skills = () => {
             />
           </div>
           <br/>
-          <h3 style={{ color: "crimson", fontSize: "1.5rem" }}>
+          <h3 style={{  fontSize: "1.5rem" , color:'crimson' }}>
             Version Control & Deployment
           </h3>
           <div className="skills-grid">
@@ -112,7 +88,7 @@ const Skills = () => {
             />
           </div>
           <br/>
-          <h3 style={{ color: "crimson", fontSize: "1.5rem" }}>
+          <h3 style={{  fontSize: "1.5rem"  }}>
             API, Testing & Security Tools
           </h3>
           <div className="skills-grid">
@@ -134,7 +110,7 @@ const Skills = () => {
             />
           </div>
           <br/>
-          <h3 style={{ color: "crimson", fontSize: "1.5rem" }}>
+          <h3 style={{  fontSize: "1.5rem" , color:'crimson' }}>
             Professional Skills
           </h3>
           <div className="skills-grid">

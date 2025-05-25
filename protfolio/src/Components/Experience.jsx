@@ -1,20 +1,24 @@
 import React from "react";
 import "./Experience.css";
-import { pink } from "@mui/material/colors";
 
 const Experience = () => {
   return (
-    <div id="experience"  className="exp-back">
-      <section >
+    <div id="experience" className="exp-back">
+      <section>
         <h2 className="exp-head" style={{ color: " rgb(63, 10, 54)" }}>
           <span style={{ color: "crimson" }}>My</span> Experience
         </h2>
 
         <div className="experience-card">
-          <h3>Full Stack Developer</h3>
+          <h3
+            style={{ textDecoration: "underline", textUnderlineOffset: "6px" }}
+          >
+            Full Stack Developer
+          </h3>
           <br />
           <p>
-            <strong>Company:</strong> I-Bacus Tech Solutions Pvt. Ltd., Coimbatore
+            <strong>Company:</strong> I-Bacus Tech Solutions Pvt. Ltd.,
+            Coimbatore
           </p>
           <p className="role">
             <strong>Role:</strong> Full Stack Developer
@@ -22,18 +26,22 @@ const Experience = () => {
           <p>
             <strong>Duration:</strong> May 2024 – Present
           </p>
-          <p>
-            As a Frontend Developer at I-Bacus Tech, I actively contribute to
-            both client-based and internal projects, taking ownership of
-            frontend development while also collaborating on backend logic. I
-            work alongside cross-functional teams to deliver robust, scalable,
-            and user-focused web applications tailored to business needs.
-          </p>
           <br />
-          <p style={{color:'rgb(188, 51, 78)', fontSize:'1.2rem'}}>
+          <p style={{ color: "rgb(188, 51, 78)", fontSize: "1.2rem" }}>
             <strong>Key Achievements:</strong>
-          </p>{" "}
-        
+          </p>
+          <p>
+            As a Full Stack Developer with a primary focus on frontend
+            technologies, I bring hands-on experience in developing responsive
+            and user-friendly web applications. I have actively contributed to
+            both client and internal projects, taking ownership of the frontend
+            while collaborating on backend logic. My technical skill set spans
+            modern JavaScript frameworks, backend API development, and database
+            management. My role involves collaborating with cross-functional
+            teams to deliver high-quality, scalable applications that meet
+            diverse business needs, while delivering high-quality, impactful
+            software.
+          </p>
           <ul>
             <li>
               Developed responsive and user-centric front-end applications using
@@ -41,8 +49,8 @@ const Experience = () => {
             </li>
             <li>
               Designed and implemented accessible and responsive user interfaces
-              using Material UI, Tailwind CSS, React Icons, and media queries to
-              ensure seamless cross-device performance.
+              using Material UI, Bootstrap, Tailwind CSS, React Icons, and media
+              queries to ensure seamless cross-device performance.
             </li>
             <li>
               Integrated front-end components with back-end services for
@@ -85,7 +93,6 @@ const Experience = () => {
               frontend.
             </li>
             <li>
-              {" "}
               Gained hands-on experience troubleshooting real-time deployment
               issues and maintaining clean, scalable codebases.
             </li>
@@ -98,7 +105,12 @@ const Experience = () => {
         </div>
 
         <div className="experience-card" style={{ marginTop: "3rem" }}>
-          <h3 className="experience-title">US IT Recruiter</h3>
+          <h3
+            className="experience-title"
+            style={{ textDecoration: "underline", textUnderlineOffset: "6px" }}
+          >
+            US IT Recruiter
+          </h3>
           <p className="company-name">
             <strong>Company:</strong> Akidev Corporation, Coimbatore
           </p>
@@ -107,17 +119,18 @@ const Experience = () => {
           </p>
           <p className="duration">
             <strong>Duration:</strong> Feb 2023 – May 2024
-          </p>{" "}
+          </p>
           <br />
-          <p style={{color:'rgb(188, 51, 78)', fontSize:'1.2rem'}}>
+          <p style={{ color: "rgb(188, 51, 78)", fontSize: "1.2rem" }}>
             <strong>Key Achievements:</strong>
-          </p>{" "}
-       
+          </p>
+          <p>
+            Worked as a US IT Recruiter, collaborating with direct clients such
+            as Facebook, Tesla, and Blackhawk to fill multiple IT positions and
+            successfully placed candidates by using ATS.
+          </p>
+
           <ul>
-            <li>
-              Worked closely with direct clients such as Meta, Tesla, and
-              Blackhawk to fulfill niche technical requirements.
-            </li>
             <li>
               Recruited for a wide range of roles including Salesforce
               Developer, Program Manager, Data Scientist, Data Engineer, and
@@ -150,7 +163,6 @@ const Experience = () => {
         </div>
       </section>
     </div>
-    
   );
 };
 

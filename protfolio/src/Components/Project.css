@@ -1,154 +1,4 @@
 /* .projects-container {
-  padding: 2rem;
-  background-color: rgb(147, 129, 150);
-  background-image: url("https://i.pinimg.com/736x/23/fc/b0/23fcb0c67bab5179efeaf1cfcc8eafc9.jpg");
-  background-size: cover;
-  min-height: 100vh;
-}
-
-.projects-container h2 {
-  text-align: center;
-  margin-bottom: 2rem;
-  font-size: 3rem;
-  color: rgb(51, 10, 44);
-}
-
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  padding: 0 1rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-.project-card {
-  background-color: #fff;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: transform 0.3s ease;
-  padding: 20px;
-  background-color: rgb(51, 10, 44);
-  margin-top: 2rem;
-}
-
-.project-card h3 {
-  color: rgb(235, 64, 98);
-  text-align: center;
-  font-size: 1.6rem;
-}
-.project-card:hover {
-  transform: translateY(-5px);
-}
-
-.project-image {
-  width: 100%;
-  height: 200px;
-  padding: 1rem;
-  object-fit: cover;
-  margin-top: 1rem;
-}
-
-.card-content {
-  padding: 1rem;
-}
-
-.overview {
-  margin-bottom: 1rem;
-  color: white;
-  font-size: 1.2rem;
-}
-
-.overview strong {
-  color: rgb(237, 81, 107);
-}
-
-.custom-accordion {
-  border-radius: 8px;
-  margin-top: 1rem;
-  box-shadow: none;
-  color: white;
-}
-
-.custom-summary {
-  min-height: 0 !important;
-  padding: 0px 12px !important;
-}
-
-.accordion-title {
-  font-size: 14px;
-  font-weight: bold;
-  color: rgb(226, 72, 98);
-  background-color: aliceblue;
-}
-
-.custom-details {
-  padding: 8px 12px !important;
-}
-
-.feature-list {
-  padding-left: 1.2rem;
-  margin: 0;
-}
-
-.feature-list li {
-  margin-bottom: 4px;
-  font-size: 17px;
-  color: #282525;
-}
-
-.card-footer {
-  margin-top: 1rem;
-  text-align: right;
-}
-
-.github-link {
-  color: rgb(226, 72, 98);
-  font-weight: bold;
-  text-decoration: underline;
-  font-size: 1.1rem;
-}
-
-.github-link:hover {
-  cursor: pointer;
-  text-decoration: underline;
-  color: rgb(238, 227, 229);
-}
-
-@media screen and (max-width: 480px) {
-  .projects-container {
-    padding: 0rem;
-    background-image: url("https://media.istockphoto.com/id/1292991881/photo/the-more-you-know-the-more-your-business-grows.jpg?s=2048x2048&w=is&k=20&c=wgkxUyB-8SLQKSkt44783IzKQL_bok8Y_EZUxcA1J1g=");
-    background-size: cover;
-  }
-
-  .projects-container h2 {
-    padding-top: 2rem;
-  }
-  .project-card {
-    background-color: #fff;
-    border-radius: 16px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s ease;
-    padding: 20px;
-    background-color: rgb(51, 10, 44);
-    margin-top: 0rem;
-  }
-
-  .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    padding: 0 1rem;
-  }
-} */
-
-
-
-/* Base */
-.projects-container {
   padding: 80px 10%;
   background: linear-gradient(to right, #f8fbff, #e0e7ff);
   color: rgb(64, 18, 64);
@@ -163,17 +13,13 @@
   color: rgb(64, 18, 64);
 }
 
-/* Grid layout */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
 }
 
-/* Individual Card */
 .project-card {
-  background-color: #2c082c;
-  color: #ffffff;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 6px 18px rgba(64, 18, 64, 0.3);
@@ -183,6 +29,7 @@
   padding: 2rem;
   background: linear-gradient(to right, #f8fbff, #e0e7ff);
   color: black;
+  border: 1.6px solid crimson;
 }
 
 .project-card:hover {
@@ -190,14 +37,12 @@
   box-shadow: 0 10px 25px rgba(64, 18, 64, 0.4);
 }
 
-/* Card Image */
 .project-image {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
 
-/* Card Content */
 .card-content {
   padding: 20px;
   flex: 1;
@@ -212,15 +57,12 @@
   font-size: 0.95rem;
   margin-bottom: 15px;
   line-height: 1.5;
-  
 }
 
-.overview strong{
- 
+.overview strong {
   color: rgb(188, 51, 78);
 }
 
-/* Accordion Styling */
 .custom-accordion {
   background-color: #fff0f5;
   border-radius: 8px;
@@ -246,31 +88,33 @@
 .feature-list li {
   margin-bottom: 8px;
   font-size: 0.95rem;
-  
 }
 
-/* GitHub Link */
 .card-footer {
   margin-top: 15px;
   text-align: right;
 }
 
 .github-link {
-  color: rgb(188, 51, 78);
   font-weight: 600;
   text-decoration: none;
   transition: color 0.3s;
-}
-
-.github-link:hover {
   color: rgb(64, 18, 64);
 }
 
-.accordion-title:hover{
-  color: #f8fbff;
+.github-link:hover {
+  color: rgb(84, 26, 84);
+  text-decoration: underline;
 }
 
-/* Responsive */
+.accordion-title:hover {
+  color: crimson;
+}
+
+.accordion-title {
+  color: crimson;
+}
+
 @media (max-width: 768px) {
   .projects-container h2 {
     font-size: 2.2rem;
@@ -278,5 +122,160 @@
 
   .project-image {
     height: 180px;
+  }
+} */
+
+
+
+/* Project.css */
+
+.projects-container {
+  padding: 4rem 10%;
+  background: linear-gradient(to right, #f8fbff, #e0e7ff);
+  color: rgb(64, 18, 64);
+  min-height: 100vh;
+}
+
+.projects-container h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(64, 18, 64, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background: white;
+  background: linear-gradient(to right, #f8fbff, #e0e7ff);
+  border: 1.8px solid crimson;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(64, 18, 64, 0.3);
+}
+
+.project-card h3 {
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+  color: rgb(188, 51, 78);
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.card-content {
+  flex: 1;
+}
+
+.overview {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.custom-accordion {
+  background-color: #fff0f5;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.custom-summary {
+  background-color: crimson;
+  color: white;
+  border-radius: 8px 8px 0 0;
+}
+
+.accordion-title {
+  font-weight: 600;
+  font-size: 1rem;
+  color: crimson;
+}
+
+.custom-details {
+  background-color: #fdf4f7;
+  padding: 0.8rem 1rem;
+  border-radius: 0 0 8px 8px;
+}
+
+.feature-list {
+  padding-left: 1.2rem;
+}
+
+.feature-list li {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-footer {
+  margin-top: 1rem;
+  text-align: right;
+}
+
+.github-link {
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(64, 18, 64);
+  transition: color 0.3s ease;
+}
+
+.github-link:hover {
+  color: crimson;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .projects-container {
+    padding: 2rem 1.2rem;
+  }
+
+  .projects-container h2 {
+    font-size: 2rem;
+  }
+
+  .project-card {
+    padding: 1.2rem;
+  }
+
+  .project-card h3 {
+    font-size: 1.3rem;
+ 
+  }
+
+  .project-image {
+    height: 180px;
+  }
+
+  .overview {
+    font-size: 0.9rem;
+  }
+
+  .accordion-title {
+    font-size: 0.95rem;
+  }
+
+  .feature-list li {
+    font-size: 0.85rem;
+  }
+
+  .github-link {
+    font-size: 0.95rem;
   }
 }
