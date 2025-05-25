@@ -1,215 +1,4 @@
 /* .about-back {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding: 50px 0;
-  background-image: url(../Assets/landd.jpg);
-  background-size: cover;
-}
-
-.about-title {
-  font-size: 38px;
-  font-size: 3rem;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 2rem;
-  color: rgb(198, 81, 100);
-  color: crimson;
-}
-
-.about {
-  text-align: center;
-  width: 85%;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
-  background-color: transparent;
-  background-color: rgb(63, 10, 54);
-  color: white;
-}
-
-.about h3 {
-  font-size: 1.8rem;
-  color: rgb(184, 38, 77);
-  animation: highlight 1s ease-out infinite alternate;
-}
-
-.about-list {
-  text-align: left;
-  padding-left: 20px;
-  margin-top: 2rem;
-}
-
-.about-list ol {
-  list-style: decimal;
-  margin-left: 20px;
-}
-
-.about-list ul {
-  list-style: disc;
-  margin-left: 70px;
-  margin-top: 1rem;
-}
-
-.btn-boxx {
-  margin-top: 20px;
-  background: rgb(198, 81, 100);
-  color: white;
-  padding: 10px 20px;
-  display: inline-block;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.about-list strong {
-  font-size: 1.5rem;
-  color: rgb(221, 61, 93);
-  text-decoration: underline;
-}
-
-.about-list li {
-  text-align: left;
-  padding-left: 20px;
-  font-size: 1.3rem;
-  width: 97%;
-}
-
-@keyframes highlight {
-  0% {
-    color: rgb(221, 61, 93);
-    color: rgb(48, 10, 42);
-    color: rgb(226, 222, 223);
-  }
-  100% {
-    color: rgb(229, 233, 235);
-    color: rgb(48, 10, 42);
-    color: rgb(241, 46, 85);
-    text-shadow: 0 0 10px rgb(99, 51, 109);
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .about h3 {
-    font-size: 1.5rem;
-    color: rgb(237, 54, 91);
-    color: rgb(221, 61, 93);
-  }
-
-  .about-list strong {
-    font-size: 1.4rem;
-    color: rgb(221, 61, 93);
-    text-decoration: underline;
-  }
-
-  .about-back {
-    background-image: url("https://media.istockphoto.com/id/1292991881/photo/the-more-you-know-the-more-your-business-grows.jpg?s=2048x2048&w=is&k=20&c=wgkxUyB-8SLQKSkt44783IzKQL_bok8Y_EZUxcA1J1g=");
-    background-size: cover;
-  }
-
-  .about-list li {
-    text-align: left;
-    padding-left: 0px;
-    font-size: 1.3rem;
-    width: 97%;
-  }
-
-  .about {
-    text-align: center;
-    width: 90%;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
-  }
-
-  .about-title {
-    margin-top: 2rem;
-  }
-} */
-
-
-/* .about-section {
-  padding: 4rem 2rem;
-  background-color: #fff0f5;
-  background: linear-gradient(to right, #f8fbff, #e0e7ff);
-  text-align: center;
-}
-
-.about-heading {
-  font-size: 2.5rem;
-  color: rgb(63, 10, 54);
-  margin-bottom: 1rem;
-}
-
-.about-subtitle {
-  font-size: 1.3rem;
-  color: #333;
-  margin-bottom: 3rem;
-}
-
-.about-content {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  background-color: #f1eeee;
-  padding: 5rem;
-}
-
-.about-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 2rem;
-  flex-wrap: wrap;
-  text-align: left;
-}
-
-.about-row.reverse {
-  flex-direction: row-reverse;
-}
-
-.about-title {
-  flex: 1;
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: #8b0000;
-  min-width: 200px;
-  text-align: left;
-}
-
-.about-list {
-  flex: 2;
-  list-style-position: inside;
-  padding-left: 1rem;
-  color: #333;
-  margin: 0;
-}
-
-.about-list li {
-  margin-bottom: 0.5rem;
-}
-
-
-@media (max-width: 768px) {
-  .about-row,
-  .about-row.reverse {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .about-title {
-    text-align: center;
-  }
-
-  .about-list {
-    text-align: center;
-    padding-left: 0;
-  }
-} */
-
-.about-back {
   background: linear-gradient(to right, #f8fbff, #e0e7ff);
   padding: 3rem 2rem;
   text-align: center;
@@ -229,7 +18,7 @@
   color: #333;
 }
 
-/* Container with responsive width */
+
 .about-container {
   display: flex;
   flex-direction: column;
@@ -240,9 +29,17 @@
   background: linear-gradient(to right, #f8fbff, #e0e7ff);
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid crimson;
 }
 
-/* Row layout with zig-zag design */
+.about-container:hover{
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(64, 18, 64, 0.2);
+  border: 2px solid crimson;
+}
+
+
 .about-row {
   display: flex;
   justify-content: space-between;
@@ -277,7 +74,7 @@
   line-height: 1.6;
 }
 
-/* Responsive Styling for tablets and smaller */
+
 @media (max-width: 1024px) {
   .about-container {
     width: 90%;
@@ -293,7 +90,7 @@
   }
 }
 
-/* Responsive Styling for phones */
+
 @media (max-width: 768px) {
   .about-row,
   .about-row.reverse {
@@ -316,5 +113,104 @@
   .about-container {
     width: 95%;
     padding: 1.5rem;
+  }
+} */
+
+
+
+
+
+.about-section {
+  background: linear-gradient(to right, #f8fbff, #e0e7ff);
+  padding: 4rem 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #2c082c;
+  margin-bottom: 1rem;
+}
+
+.about-title .highlight {
+  color: crimson;
+}
+
+.about-subheading {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 2.5rem;
+}
+
+.about-container {
+  background-color: #ffffff;
+  background: linear-gradient(to right, #f8fbff, #e0e7ff);
+  padding: 2.5rem;
+  margin: 0 auto;
+  max-width: 1000px;
+  max-width: 83%;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  border: 2px solid crimson;
+  box-shadow: 0px 5px 5px rgba(64, 18, 64, 0.4);
+}
+
+.about-container:hover{
+  border: 2px solid crimson;
+  transform: scale(1.02);
+  box-shadow: 0 5px 15px rgba(64, 18, 64, 0.4);
+}
+.about-block {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.about-heading {
+  font-size: 1.4rem;
+  color: crimson;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.about-list {
+  list-style: disc;
+  padding-left: 1.5rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.about-list li {
+  margin-bottom: 0.75rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 2.2rem;
+  }
+
+  .about-subheading {
+    font-size: 1.1rem;
+  }
+
+  .about-container {
+    padding: 1.5rem;
+  }
+
+  .about-heading {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .about-list {
+    padding-left: 1rem;
+    font-size: 0.95rem;
+    text-align: left;
+  }
+
+  .about-block {
+    text-align: center;
   }
 }
